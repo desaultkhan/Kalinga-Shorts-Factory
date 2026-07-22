@@ -1,0 +1,67 @@
+{
+  "topic": "the-eruption-that-buried-pompeii",
+  "title": "The Eruption of Mount Vesuvius, 79 AD",
+  "summary": "On an autumn day in 79 AD, Mount Vesuvius erupted with apocalyptic force, burying the Roman cities of Pompeii and Herculaneum under volcanic ash and pyroclastic flows. Over 20,000 people lived in these prosperous towns. Despite days of warning tremors, residents dismissed the earthquakes as normal\u2014until a 33-kilometer-high column of superheated gas and rock exploded from the mountain. The two-day eruption released 100,000 times the energy of the Hiroshima bomb, killing thousands instantly through vaporizing heat, not slow suffocation. The ash sealed victims mid-motion, preserving a snapshot of Roman life that still haunts us today.",
+  "facts": [
+    {
+      "fact": "The eruption happened in late October, not August 24",
+      "detail": "Traditionally dated to August 24, 79 AD based on Pliny's letters. But victims wore heavy clothing, autumn fruits like pomegranates were found, wine was in fermentation jars, and a charcoal inscription discovered in 2018 reads 'October 17.' Modern scholars now place it between October 24 and November 1, 79 AD.",
+      "confidence": "high"
+    },
+    {
+      "fact": "People ignored clear warning signs for days",
+      "detail": "A major earthquake destroyed parts of Pompeii on February 5, 62 AD\u2014some damage still unrepaired 17 years later. Four days before the eruption, small earthquakes increased in frequency. Wells went dry. Livestock showed distress. But Pliny the Younger noted such tremors 'were not particularly alarming because they are frequent in Campania.' Residents had no concept of volcanology\u2014Vesuvius hadn't erupted in living memory.",
+      "confidence": "high"
+    },
+    {
+      "fact": "Victims died instantly from extreme heat, not slow asphyxiation",
+      "detail": "The biggest misconception: people suffocated in ash over hours. Reality: pyroclastic surges at 250\u2013300\u00b0C (480\u2013572\u00b0F) killed in a fraction of a second by vaporizing body fluids and boiling blood. Some skulls exploded from internal pressure. Victims froze in the 'pugilistic pose'\u2014contracted muscles from instant dehydration\u2014not agony. This happened even inside buildings 10 km from the vent.",
+      "confidence": "high"
+    },
+    {
+      "fact": "The eruption column was 33 km (21 miles) high",
+      "detail": "The plume shot 33 kilometers into the stratosphere, ejecting 1.5 million tons of molten rock, pumice and ash per second. Pliny the Younger, watching from 29 km away at Misenum, described it as a pine tree: a towering trunk that spread into branches. The eruption released 100,000 times the thermal energy of both atomic bombs dropped on Japan combined.",
+      "confidence": "high"
+    },
+    {
+      "fact": "Pliny the Elder died trying to rescue people",
+      "detail": "Pliny the Younger's uncle, the famous naturalist and admiral Pliny the Elder, commanded the Roman fleet at Misenum. When the eruption began, he launched ships to evacuate people from the coast. He died the next day, likely from a stroke or heart attack triggered by volcanic gases. His body was found unharmed\u2014no burns or injuries. He was 55.",
+      "confidence": "high"
+    },
+    {
+      "fact": "Herculaneum was buried under 23 meters, Pompeii under ~5 meters",
+      "detail": "Herculaneum, closer to Vesuvius, was entombed under 23 meters (75 feet) of pyroclastic material\u2014a solid, rock-hard matrix that preserved organic materials like wood, food, and papyrus scrolls. Pompeii received 2.8 meters of pumice, then 1.8 meters from surges\u2014looser, but enough to seal the city and collapse roofs.",
+      "confidence": "high"
+    },
+    {
+      "fact": "Over 1,500 bodies have been found; the true death toll is unknown",
+      "detail": "Archaeologists have recovered 1,044 casts and remains at Pompeii, ~332 at Herculaneum. But many fled and died elsewhere, or bodies were never found. Named victims include Princess Drusilla and her son Agrippa, merchant Aulus Umbricius Scaurus, poet Caesius Bassus. The combined population of both cities exceeded 20,000.",
+      "confidence": "high"
+    },
+    {
+      "fact": "The plaster casts are not the actual bodies",
+      "detail": "The bodies decomposed, leaving voids in the hardened ash. In 1863, archaeologist Giuseppe Fiorelli realized he could pour plaster into these cavities. The casts reveal victims' final moments\u2014a mother shielding her child, a man covering his face, a dog straining at its chain. The bones remain inside the plaster.",
+      "confidence": "high"
+    },
+    {
+      "fact": "This eruption gave its name to a type of volcano",
+      "detail": "'Plinian eruptions' are the most explosive volcanic events, characterized by towering columns of gas and ash reaching the stratosphere. Named after Pliny the Younger, whose two letters to historian Tacitus\u2014written 25 years later\u2014are the only surviving eyewitness account. He was 17 at the time.",
+      "confidence": "high"
+    },
+    {
+      "fact": "The eruption lasted approximately 18-20 hours over two days",
+      "detail": "Day 1 (afternoon): explosive column shoots upward, raining pumice. By nightfall, mild pyroclastic flows near the volcano. Day 2 (early morning): the deadly second surge\u2014denser, faster, hotter\u2014swept through both cities. By evening, it was over. Darkness at noon, earthquakes, a small tsunami in the Bay of Naples.",
+      "confidence": "high"
+    }
+  ],
+  "hook_angles": [
+    "They had four days of warning earthquakes. They ignored every single one\u2014because tremors were 'normal' in Campania.",
+    "For centuries we thought Pompeii's victims suffocated slowly in ash. The truth is more horrifying: they died in less than a second as the heat vaporized their blood.",
+    "The date everyone knows\u2014August 24, 79 AD\u2014is wrong. A charcoal graffiti scrawled in October proves the eruption happened in autumn.",
+    "Pliny the Elder, Rome's greatest naturalist, sailed INTO the eruption to save people. He died the next day\u2014not from fire or ash, but likely a heart attack.",
+    "The famous Pompeii 'bodies' aren't bodies at all\u2014they're plaster poured into the voids left after flesh rotted away in volcanic rock."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Eruption_of_Mount_Vesuvius_in_79_AD"
+  ]
+}

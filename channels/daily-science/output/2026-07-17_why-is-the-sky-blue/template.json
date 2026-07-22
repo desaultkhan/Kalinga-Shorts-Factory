@@ -1,0 +1,63 @@
+{
+  "target_words": [
+    150,
+    210
+  ],
+  "hook_min_score": 7,
+  "script_min_score": 8,
+  "script_attempts": 3,
+  "image_model": "nano_banana_2",
+  "video_model": "seedance_2_0",
+  "video_params": {
+    "mode": "fast",
+    "resolution": "1080p"
+  },
+  "max_clip_seconds": 8,
+  "clip_keyframe_role": "reference",
+  "keyframe_continuity": true,
+  "motion": {
+    "HOOK": "A slow push through the dark toward the glowing subject as it ignites",
+    "INTUITION": "A drift around the familiar view, light grazing the surface",
+    "REVEAL": "The camera pulls to reveal the mechanism \u2014 scale opening up in the void",
+    "DETAIL": "A slow macro push onto the one luminous detail, bloom flaring",
+    "WHY": "A grand pull-back to a wide, the subject small against the cosmos",
+    "CTA": "A gentle drift back into the dark, the light receding to invite a replay"
+  },
+  "voice": "Mark (en)",
+  "tts_engine": "higgsfield",
+  "caption_style": "viral",
+  "reveal_overlay_text": true,
+  "overlay_reveal_at": 0.6,
+  "assemble_overlays": true,
+  "watermark": true,
+  "watermark_pos": "bottom-right",
+  "watermark_opacity": 0.5,
+  "watermark_logo_px": 150,
+  "music": true,
+  "music_source": "local",
+  "music_file": null,
+  "audio_speed": 1.5,
+  "max_slowdown": 3.0,
+  "clip_audio_gain": 0.32,
+  "clip_fill": "slow",
+  "max_clips_per_segment": 2,
+  "kenburns": "ffmpeg",
+  "ai_review_iters": 3,
+  "duration_range": [
+    45,
+    95
+  ],
+  "virality_min_overall": 40,
+  "virality_min_hook": 35,
+  "max_hook_retries": 1,
+  "score_hook_first": false,
+  "brand": {
+    "palette": "near-black space void, deep indigo and teal nebula haze, with ONE luminous accent (electric cyan or warm star-gold) and crisp specular highlights; dramatic, high-contrast, never flat or grey",
+    "marks": "none baked in \u2014 the light IS the mark. A faint lens-bloom or a thin ring of light is the only recurring motif. NO logos, NO 3D badges, NO text baked in"
+  },
+  "budget_credits": 240,
+  "description": "cinematic deep-space \u2014 inky blacks, volumetric light, one glowing subject",
+  "world": "a cinematic deep-space / astrophysics world \u2014 a single hero subject (a planet, a photon, a molecule, a wave) suspended in an inky void, lit by one directional source with volumetric god-rays and soft nebula haze, rendered like a premium science documentary or a high-end CGI simulation",
+  "style": "Cinematic 3D / astrophotography look \u2014 deep true-black background, one dramatic directional key light, volumetric light shafts, subtle lens bloom and depth of field, an electric-cyan or star-gold accent against cool indigo-teal haze. Awe-inducing, IMAX-scale, physically plausible; NOT flat, NOT cartoonish, NOT a bright daylight scene. Vertical 9:16 with the luminous subject in the upper two thirds and the lower third falling to clean darkness for captions.",
+  "name": "cosmos"
+}

@@ -1,0 +1,107 @@
+# ─────────────────────────────────────────────────────────────────────────
+# Example channel — "history-shorts"
+#
+# The SECOND channel in this repo (alongside daily-science) — proof that the
+# pipeline is channel-agnostic. Each video tells ONE pivotal moment in history
+# in ~60 seconds: the setup, the turning point, and why it still echoes.
+#
+# With more than one channel present you MUST say which one to run, e.g.:
+#     python3 kalinga.py --channel history-shorts ship "the fall of constantinople"
+#     KALINGA_CHANNEL=history-shorts python3 kalinga.py make
+# (With a single channel, --channel is optional — the sole channel wins.)
+#
+# Research is the `llm` adapter with Wikipedia grounding on (wiki_grounding) —
+# ideal for history, since a moment/person/event resolves cleanly to a citable
+# article so dates and names are grounded, not invented.
+# ─────────────────────────────────────────────────────────────────────────
+
+title: History in 60 Seconds
+premise: >-
+  One pivotal moment in history per video — the decision, the battle, the
+  discovery, the day everything pivoted. Set the scene fast, land on the turning
+  point, and show why it still shapes the world. Vivid and specific, honest
+  about complexity, never a dry textbook recap or a great-man myth.
+
+persona: >-
+  a spellbinding narrative historian — brings a moment alive with the telling
+  detail and the human stakes, builds tension to the turning point, and respects
+  the truth (the mess, the contingency, the people on all sides). Never
+  sensationalist, never "you won't BELIEVE", never invents a quote.
+
+topic_noun: moment           # one video = one moment / event / turning point
+research: llm                # web + Wikipedia grounding → facts.json
+web_research: true
+wiki_grounding: true         # anchor dates/names to the topic's Wikipedia
+                             # extract (wiki.py) — history rewards grounding
+default_template: animated   # switch per video with --template animated|archive|inked
+
+# no positive_verdict — these tell a story, they don't rule on anything.
+
+# ~60s. The writer owns the words; the director owns visuals. The beats are a
+# SUGGESTED menu (flexible_segments), not a fixed checklist — only required
+# beats are enforced.
+flexible_segments: true
+segments:
+  - label: HOOK
+    required: true
+    max_words: 34
+    guidance: >-
+      (first words = first frame) drop the viewer INTO the moment at its most
+      charged instant — a concrete image, a stake, a countdown. NEVER "let's
+      travel back in time" or "in the year X".
+  - label: SETUP
+    guidance: >-
+      the fast context — who, where, and what's at stake — just enough for the
+      turning point to land. Ground it in one vivid, specific detail.
+  - label: TURN
+    guidance: >-
+      THE moment it pivoted — the decision, the shot, the discovery. The core;
+      make the viewer feel the hinge of history swinging.
+  - label: STAKES
+    guidance: >-
+      what it cost and what it changed in the immediate aftermath — the human
+      consequence, concrete and specific, not an abstraction.
+  - label: LEGACY
+    guidance: >-
+      why it still matters today — the line from that moment to the viewer's
+      world. One resonant sentence, not a recap.
+  - label: CTA
+    required: true
+    max_words: 20
+    guidance: >-
+      close naturally: a one-line button + "follow for a moment in history
+      every day." There's always another turning point.
+
+voice_rules:
+  - >-
+    Conversational and cinematic. Favor comma-flow phrasing over choppy
+    sentences — every hard break costs ~0.6s of dead air in the voiceover.
+  - >-
+    Tension and specifics over dates-and-lists. One vivid detail beats three
+    facts. No "you won't believe", no textbook cadence.
+  - >-
+    Stay true to the record — real names, real dates, no invented quotes; note
+    genuine uncertainty rather than smoothing it over.
+
+visual_rules: >-
+  Evocative, period-grounded scenes — the ACTIVE TEMPLATE owns the exact medium
+  and palette. Each beat is a dramatic moment from the story (the war room, the
+  crowded harbour, the lone figure at the threshold), mood following the arc.
+  There is NO on-screen host: the scenes carry the story over narration. Prefer
+  illustration/archival treatments over fake photorealism of real people; avoid
+  putting invented words on banners or documents.
+
+seo:
+  title_must_include: ["{topic}"]
+  description_must_include: ["history"]
+  base_hashtags: ["#History", "#OnThisDay", "#DidYouKnow"]
+  base_tags: [history, history facts, historical moments, what happened, on this day,
+              world history, history explained, the past, turning points, educational]
+  prompt_rules: |-
+    - Title: under 70 chars, curiosity-driven, names the moment and the stakes
+      ("The 20 minutes that decided the Battle of Midway"). Tease the turn.
+    - Description: 3-5 lines. Line 1 is the searchable hook, then setup + turn +
+      legacy in brief. End with 2-3 hashtags.
+    - Hashtags: mix broad (#History) and specific (the event/era/place).
+    - Tags: cover search intents — the event/person/place name, "what happened
+      at X", "X explained", the era and region.

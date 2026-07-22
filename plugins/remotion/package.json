@@ -1,0 +1,20 @@
+{
+  "name": "kalinga-kenburns-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Optional Remotion plugin: animated-graphic Ken Burns for Kalinga still segments. Falls back to ffmpeg zoompan when not installed.",
+  "scripts": {
+    "preview": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts KenBurns"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "typescript": "^5.4.0"
+  }
+}

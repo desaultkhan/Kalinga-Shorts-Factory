@@ -1,0 +1,33 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Kalinga</title>
+<style>
+__STYLES__
+</style></head><body>
+<div class="orbs" aria-hidden="true"></div>
+<header>
+ <span class="brand">Kalinga</span>
+ <span class="topic" id="topic">…</span>
+ <span class="pill" id="chan"></span>
+ <span class="pill" id="tpl"></span>
+ <span class="pill" id="cred"></span>
+ <span class="grow"></span>
+ <button class="ghost" id="homeBtn" title="Back to the launcher">⌂ Home</button>
+ <button class="ghost" id="autoBtn" title="Finish every remaining stage headless">⏩ Auto from here</button>
+ <button class="ghost" id="quitBtn" title="Stop the server — resume later with the same command">✕ Quit</button>
+</header>
+<div class="setup-banner" id="setupBanner" style="display:none"></div>
+<div class="layout">
+ <nav id="nav"></nav>
+ <main id="main"></main>
+</div>
+<div class="console" id="console">
+ <div class="hd"><span class="spin" id="spin"></span><span id="jobLabel">working…</span>
+   <span class="grow" style="flex:1"></span>
+   <button class="ghost" id="hideLog" style="padding:2px 8px">hide</button></div>
+ <pre id="log"></pre>
+</div>
+<script>
+__APP_JS__
+</script>
+</body></html>

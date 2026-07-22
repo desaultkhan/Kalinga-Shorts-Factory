@@ -1,0 +1,46 @@
+# "Archive" — warm archival documentary. Aged paper, sepia-toned period imagery,
+# map fragments and museum light. Reads like a prestige history documentary; the
+# archival treatment sidesteps fake-photoreal renders of real people.
+
+description: archival documentary — aged paper, sepia tones, map fragments, museum light
+
+brand:
+  palette: >-
+    aged parchment and warm sepia, ink-brown and faded gold, with ONE deep accent
+    (oxblood red or teal) for the pivotal element; candle-and-museum lighting,
+    dust in the light, never cold or clinical
+  marks: >-
+    archival only — a torn paper edge, a faint map grid, a wax-seal smudge is the
+    recurring motif; NO modern logos, NO 3D badges, NO invented text on documents
+
+world: >-
+  a warm archival-documentary world — dramatic period scenes rendered as aged,
+  sepia-toned archival imagery on parchment (the war room, the crowded harbour,
+  the signed treaty), with map fragments, margins and museum-glass light
+
+style: >-
+  Archival documentary illustration — sepia and warm-brown period imagery with
+  aged-paper and photo-grain texture, soft candle/museum lighting, dust motes in
+  raking light, one oxblood or teal accent on the key element, subtle map-grid and
+  torn-edge framing. Prestige, atmospheric, cinematic. NOT crisp modern
+  photography, NOT a bright 3D render, NOT a photoreal deepfake of a real person —
+  an evocative archival treatment. Vertical 9:16 with the scene in the upper two
+  thirds and the lower third settling to calm parchment for captions.
+
+motion:
+  HOOK: A slow push into the charged opening scene, dust drifting in the light
+  SETUP: A drift across the period setting, the map grid easing in
+  TURN: A decisive move onto the pivotal instant — the hinge swinging
+  STAKES: A slow push onto the human cost, the accent colour deepening
+  LEGACY: A pull-back connecting the moment to a wider, quieter view
+  CTA: A soft pull-back to a composed archival plate, inviting another look
+
+target_words: [150, 210]
+audio_speed: 1.0
+duration_range: [45, 95]
+kenburns: ffmpeg
+tts_engine: higgsfield      # Inworld voice (karaoke via whisper alignment)
+voice: Mark (en)            # the default Inworld narrator
+caption_style: viral
+budget_credits: 240
+max_hook_retries: 1

@@ -1,0 +1,1 @@
+Strictly safe-for-work, clean professional editorial product cinematography, no violence or distressing content; keep every on-screen letter perfectly static and legible.

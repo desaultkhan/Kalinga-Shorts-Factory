@@ -1,0 +1,176 @@
+{
+  "topic": "the-eruption-that-buried-pompeii",
+  "ticker": null,
+  "verdict": null,
+  "channel": "history-shorts",
+  "mode": "llm",
+  "model": "claude-sonnet-4-5",
+  "template": "animated",
+  "judge": {
+    "scores": {
+      "hook": 9,
+      "flow": 8,
+      "specificity": 9,
+      "payoff": 6,
+      "voice": 8,
+      "engagement": 6
+    },
+    "score": 7,
+    "reason": "The hook is exceptional\u2014instant myth-bust with visceral specificity (exploding skulls)\u2014but Beat 7's generic 'would you have left' CTA doesn't loop back to that explosive opening or create a screenshot-worthy payoff",
+    "improve": "Beat 7: Cut the generic follow-ask and loop back to the instant-death horror with a visceral close\u2014e.g., 'One second alive, next your blood boils. No scream, no escape. 20,000 people erased in a fraction of a second. Comment \ud83d\udc80 if that rewired your brain.' Make the ending shareable and loop-worthy, not informative.",
+    "addressed": "",
+    "pass": false
+  },
+  "segments": [
+    {
+      "label": "HOOK",
+      "text": "Pompeii's victims didn't suffocate. A pyroclastic surge at 250 degrees vaporized their blood in a fraction of a second \u2014 some skulls literally exploded from the pressure.",
+      "overlay": "250\u00b0C",
+      "visual": "Macro close-up: a Roman citizen's face contorted in the pugilistic pose, muscles contracted, skull structure visible, the superheated pyroclastic wave rushing in from camera-left as a wall of glowing orange and black ash, backlit by volcanic fury, the heat distortion bending the air \u2014 the instant before vaporization.",
+      "motion": "Slow push toward the face",
+      "clip_motion": "The pyroclastic surge SLAMS in from the left side of frame, a rolling wall of superheated gas and ash that engulfs the figure in one continuous wave, heat distortion rippling across the scene, embers spiraling through the cloud, camera pushes forward into the chaos",
+      "tease": "We don't yet see the city or the full scale \u2014 just the killing moment in brutal close-up",
+      "ref_idx": [],
+      "animate": true,
+      "clip_voice": false
+    },
+    {
+      "label": "SETUP",
+      "text": "October, 79 AD. Over 20,000 people in two prosperous Roman towns, living under a mountain they didn't know was a volcano. Vesuvius hadn't erupted in living memory.",
+      "overlay": "79 AD",
+      "visual": "Wide establishing shot: the Forum of Pompeii in full autumn bustle, citizens in ochre and cream togas moving between colonnaded temples and market stalls, a vendor's cart piled with pomegranates in the mid-ground (MOTIF), children running, oxblood-tiled roofs stepping down toward the bay, and Vesuvius looming serene and green on the horizon, the mountain framed between two columns.",
+      "motion": "Slow pan right across the forum, settling on Vesuvius",
+      "clip_motion": "The forum is alive \u2014 citizens walk between the columns, the pomegranate vendor gestures to a customer, children sprint across the open square, a cart rolls past, pigeons scatter, all against the static mountain backdrop, camera cranes slowly upward to reveal more of Vesuvius",
+      "tease": "The mountain looks peaceful, just part of the landscape \u2014 no hint of threat",
+      "ref_idx": [],
+      "animate": true
+    },
+    {
+      "label": "WARNINGS",
+      "text": "For four days the ground shook harder. Wells went dry. Livestock panicked. But tremors were normal in Campania \u2014 they'd felt them all their lives. Just another Tuesday.",
+      "overlay": "Four Days",
+      "visual": "Close-up: a stone well in a courtyard, the ground cracking around its base in jagged lines, a clay water jug tipped over spilling its contents, a citizen's sandaled foot stepping casually over the crack, the person's hand gesturing dismissively, oxblood roof tiles rattling overhead but the figure unworried.",
+      "motion": "Slow tilt up from the crack to the dismissive gesture",
+      "clip_motion": "The ground SHAKES \u2014 the crack widens slightly, the water spreads across the stones, roof tiles rattle and one falls, the citizen steps over the crack mid-stride without breaking conversation, the jug rolls a few inches, subtle but continuous tremor throughout",
+      "tease": "We see the warnings clearly, but the citizens' body language shows they don't take them seriously",
+      "ref_idx": [
+        1
+      ],
+      "animate": false
+    },
+    {
+      "label": "TURN",
+      "text": "Then the mountain exploded. A 33-kilometer column punched into the stratosphere \u2014 100,000 times the energy of Hiroshima. The air itself could kill.",
+      "overlay": "33 km High",
+      "visual": "Extreme wide shot: Vesuvius EXPLODING, the summit blown apart in a massive blast of orange fire and black smoke, the 33-kilometer column shooting vertically upward like a towering trunk that spreads into a massive pine-tree canopy in the stratosphere, Pompeii tiny in the foreground, the scale overwhelming, the sky turned black, lightning crackling through the ash cloud, the shockwave rippling outward.",
+      "motion": "Slow crane upward following the column into the sky",
+      "clip_motion": "The mountain DETONATES \u2014 the summit explodes outward in a massive fireball, the column shoots violently upward, rocks and pumice ejected in all directions, the ash cloud BOILS and expands, lightning forks through the darkness, the shockwave ripples across the landscape bending trees, the column continues to climb, spreading into the stratospheric canopy, camera cranes upward following the apocalyptic ascent",
+      "tease": "This is the full reveal \u2014 the scale, the power, the end of the denial",
+      "ref_idx": [
+        1
+      ],
+      "animate": true,
+      "clip_voice": false
+    },
+    {
+      "label": "PLINY",
+      "text": "Admiral Pliny the Elder, the famous naturalist, launched ships to evacuate the coast. He died the next day from volcanic gases, trying to save strangers. They found his body unmarked. Just... stopped.",
+      "overlay": "Pliny the Elder",
+      "visual": "Wide shot: a Roman naval galley cutting through dark churning water toward the eruption, the sky black with ash, Pliny the Elder at the prow in admiral's regalia, pointing forward toward the coast, other ships following in formation, volcanic lightning illuminating the scene from behind, the heroic mission into hell.",
+      "motion": "Slow push toward Pliny at the prow",
+      "clip_motion": "The galley SURGES forward through the waves, oars stroking in rhythm, water splashing over the bow, Pliny gestures commandingly toward the shore, the sails billow and strain, ash rains down around the ships, volcanic lightning flashes illuminate the fleet, camera tracks alongside the ship then pushes in on Pliny's determined face",
+      "tease": "We see the heroism, but the next shot reveals the cost",
+      "ref_idx": [],
+      "animate": true,
+      "clip_voice": false
+    },
+    {
+      "label": "LEGACY",
+      "text": "The ash sealed victims mid-motion, freezing them exactly where they fell \u2014 a city snapshot at the instant everything ended. No chronicle could capture life the way this death did.",
+      "overlay": "Frozen Forever",
+      "visual": "Medium shot: a Roman bedroom interior, ash pouring in through the window, a figure frozen mid-reach toward the door in the pugilistic pose, arm extended, body contracted, household objects scattered \u2014 a clay lamp on its side, a wooden stool overturned, bread half-eaten on a table, everything preserved in falling ash, the volcanic coating sealing the scene layer by layer.",
+      "motion": "Slow pan across the frozen tableau",
+      "clip_motion": "Ash POURS in through the window in a continuous thick stream, the layer rising visibly across the floor, settling over the figure's outstretched arm and coating the objects, the bread, the lamp, the fabric, everything disappearing under the grey-white seal in real-time, the room filling up, the preservation happening before our eyes",
+      "tease": "We're seeing the mechanism of preservation \u2014 not the horror, but the uncanny perfection",
+      "ref_idx": [
+        1
+      ],
+      "animate": true,
+      "clip_voice": false
+    },
+    {
+      "label": "CTA",
+      "text": "1,500 bodies recovered. The true death toll? We'll never know. Would you have left at the first tremor? Follow for a moment in history every day.",
+      "overlay": "Follow for More",
+      "visual": "Wide shot: a modern archaeological excavation at Pompeii, the famous plaster casts of victims in their final poses arranged in a preserved building, tourists and archaeologists visible in the background, the scale of the site visible, the work of recovery ongoing, sunlight streaming through the ancient doorways.",
+      "motion": "Slow pan across the plaster casts",
+      "clip_motion": "Archaeologists carefully brush away soil from a newly exposed section, tourists move slowly past the casts in reverent silence, dust motes drift in the shafts of sunlight, a researcher makes notes, the camera drifts through the preserved space, the work continuing",
+      "tease": "The full scale remains unknown \u2014 vast parts of the city still buried",
+      "ref_idx": [],
+      "animate": false
+    }
+  ],
+  "primer": [
+    {
+      "label": "HOOK",
+      "text": "Pompeii's victims didn't suffocate. A pyroclastic surge at 250 degrees vaporized their blood in a fraction of a second \u2014 some skulls literally exploded from the pressure."
+    },
+    {
+      "label": "SETUP",
+      "text": "October, 79 AD. Over 20,000 people in two prosperous Roman towns, living under a mountain they didn't know was a volcano. Vesuvius hadn't erupted in living memory."
+    },
+    {
+      "label": "WARNINGS",
+      "text": "For four days the ground shook harder. Wells went dry. Livestock panicked. But tremors were normal in Campania \u2014 they'd felt them all their lives. Just another Tuesday."
+    },
+    {
+      "label": "TURN",
+      "text": "Then the mountain exploded. A 33-kilometer column punched into the stratosphere \u2014 100,000 times the energy of Hiroshima. The air itself could kill."
+    },
+    {
+      "label": "PLINY",
+      "text": "Admiral Pliny the Elder, the famous naturalist, launched ships to evacuate the coast. He died the next day from volcanic gases, trying to save strangers. They found his body unmarked. Just... stopped."
+    },
+    {
+      "label": "LEGACY",
+      "text": "The ash sealed victims mid-motion, freezing them exactly where they fell \u2014 a city snapshot at the instant everything ended. No chronicle could capture life the way this death did."
+    },
+    {
+      "label": "CTA",
+      "text": "1,500 bodies recovered. The true death toll? We'll never know. Would you have left at the first tremor? Follow for a moment in history every day."
+    }
+  ],
+  "direction": {
+    "visual_concept": "A vibrant cel-shaded animated Roman world on its last ordinary day \u2014 Pompeii's ochre-gold buildings and oxblood-tiled roofs rendered in bold flat colors with clean graphic outlines, citizens in togas moving through sun-drenched forums and markets, Vesuvius a serene green dome on the horizon. The animation shifts from everyday warmth to apocalyptic scale as the mountain reveals its true nature.",
+    "anchor_motif": "A pomegranate \u2014 the autumn fruit that dates the eruption. It appears first as a small detail in the opening market scene, life and season in one image, and returns at the end preserved forever in volcanic ash, the loop closed.",
+    "reveal_arc": "We withhold the full horror and scale. Open on oblivious daily life, hint at warnings dismissed, show the mountain's explosion as spectacle, reveal death through single frozen moments rather than mass casualties, then land on the haunting preservation \u2014 not what was destroyed, but what was sealed.",
+    "style": "Cinematic 2D cel-shaded animation, bold flat colors with clean graphic outlines, rich saturated palette of ochre-gold stone, oxblood terracotta, deep teal sky and vibrant market pops, dramatic side and top lighting, high contrast shadows but generous fill keeping all areas legible, painterly texture on walls and fabrics, dynamic staging with depth layers, vertical 9:16, bright and evenly lit, the bottom third kept clear and uncluttered for captions (do NOT darken it)",
+    "thumbnail": {
+      "concept": "A single figure frozen mid-reach in the pugilistic pose, arm outstretched toward something just out of frame, the erupting column of Vesuvius towering in the background \u2014 dramatic silhouette against the ash cloud, the moment of sealing. Clean top and bottom thirds for text overlay.",
+      "text": "Pompeii's Last Second"
+    },
+    "model": "claude-sonnet-4-5",
+    "judge": {
+      "scores": {
+        "physics": 8,
+        "theme": 6,
+        "freshness": 4,
+        "kinetics": 4,
+        "audience": 7,
+        "clarity": 8
+      },
+      "overall": 5,
+      "weakest": "kinetics",
+      "reason": "Spends a paid clip budget on falling ash over a static frozen figure - pure ambience loop, not scene-scale action.",
+      "improve": "Make every animate:true clip earn its cost with full-body or environmental action that cannot be faked with ken-burns - LEGACY's falling ash over a frozen figure is a particle effect, not a performance, so flip it to animate:false or stage real action in that room (roof collapse, surge rushing in, furniture tumbling).",
+      "segments": [
+        {
+          "label": "LEGACY",
+          "issue": "Shot 1 is a paid clip of ash falling on an already-frozen figure - that's a particle effect / ambience loop, not scene-scale action. Also repeats the pugilistic pose concept from HOOK (near-duplicate framing).",
+          "improve": "Flip shot 1 to animate:false (falling ash can be ken-burns), OR reconceive it as real scene-scale action - show the pyroclastic surge RUSHING into the room and engulfing the figure in real-time (the freezing moment itself), or the roof collapsing inward, or furniture tumbling. And vary the death pose from HOOK - show a different final moment (someone clutching a child, someone at a window, someone mid-stride fleeing) to avoid repeated pugilistic framing."
+        }
+      ]
+    }
+  },
+  "directed": "claude-sonnet-4-5"
+}

@@ -1,0 +1,22 @@
+# --- secrets: never commit keys ---
+.env
+*.env
+*_key*
+*.pem
+secrets*
+
+# --- runtime caches / logs ---
+pipeline/src/.cik_cache.json
+pipeline/daily.log
+*.log
+
+# --- condense-learnings backups (timestamped) ---
+*.bak.md
+
+# --- python / editor cruft ---
+__pycache__/
+*.pyc
+.DS_Store
+
+# --- personal Claude Code settings (machine-local permissions) ---
+.claude/settings.local.json

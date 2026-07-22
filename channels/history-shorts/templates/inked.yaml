@@ -1,0 +1,46 @@
+# "Inked" — graphic-novel history. Bold ink linework, dramatic cross-hatching,
+# a limited period palette. Reads like a prestige illustrated history; the drawn
+# medium keeps real historical figures stylized, never fake-photoreal.
+
+description: graphic-novel history — bold ink linework, cross-hatching, limited palette
+
+brand:
+  palette: >-
+    off-white paper, dense black ink, and ONE or two muted period colours
+    (oxblood, indigo, ochre) used sparingly for emphasis; high-contrast, graphic,
+    a little ink spatter — dramatic, never soft or pastel
+  marks: >-
+    ink marks only — a heavy hatch shadow, a brushed underline, an ink splatter is
+    the recurring motif; NO photographic logos, NO 3D badges, NO invented lettering
+
+world: >-
+  a graphic-novel history world — dramatic moments drawn in bold ink (the lone
+  figure at the threshold, the fleet on the horizon, the hand on the document),
+  strong silhouettes and cross-hatched shadow, a few muted period colours
+
+style: >-
+  Graphic-novel / inked illustration — confident bold black ink linework with
+  dramatic cross-hatching and heavy chiaroscuro shadow on off-white paper, a
+  limited muted period palette (oxblood, indigo, ochre) for selective emphasis,
+  strong silhouettes, a little ink spatter. Cinematic, high-contrast, prestige.
+  Absolutely NOT photoreal, NOT a 3D render, NOT a photograph — hand-inked 2D
+  illustration. Vertical 9:16 with the subject in the upper two thirds and the
+  lower third opening to clean paper for captions.
+
+motion:
+  HOOK: Ink strokes snap in around the charged opening image
+  SETUP: A steady drift across the inked setting, hatching deepening
+  TURN: A hard, decisive push onto the pivotal moment — high contrast
+  STAKES: A slow move onto the human cost, shadow pooling heavy
+  LEGACY: A pull-back to a composed wide as the line to today is drawn
+  CTA: A soft pull-back mirroring the opening, ink trailing off to invite a replay
+
+target_words: [150, 210]
+audio_speed: 1.0
+duration_range: [45, 95]
+kenburns: ffmpeg
+tts_engine: higgsfield      # Inworld voice (karaoke via whisper alignment)
+voice: Mark (en)            # the default Inworld narrator
+caption_style: viral
+budget_credits: 220
+max_hook_retries: 1

@@ -1,0 +1,45 @@
+# "Blueprint" — technical schematic. Cyan lines on deep navy, drafting-table
+# precision, exploded diagrams. Best for how-it-works / engineering / anatomy
+# topics that reward a technical, "cutaway" treatment.
+
+description: technical blueprint — cyan schematic lines on navy, drafting precision
+
+brand:
+  palette: >-
+    deep navy / prussian-blue ground, precise pale-cyan and white schematic
+    lines, with ONE warm accent (amber or safety-orange) to spotlight the key
+    part; measured, technical, engineered — never soft or painterly
+  marks: >-
+    drafting marks only — thin dimension lines, tick marks, a small crosshair or
+    callout leader is the recurring motif; NO photographic logos, NO 3D badges
+
+world: >-
+  a technical blueprint world — the phenomenon drawn as a precise engineering
+  schematic or exploded cutaway (labelled parts, dimension lines, section views,
+  callout leaders) in fine cyan linework on a deep navy drafting ground
+
+style: >-
+  Technical blueprint / schematic illustration — crisp pale-cyan and white line
+  drawing on deep prussian-navy, exploded/cutaway views, thin dimension lines and
+  callout leaders, monospaced-style annotation labels, one amber accent on the key
+  component. Precise, engineered, drafting-table clean. NOT photoreal, NOT a 3D
+  render, NOT painterly — a flat vector schematic. Vertical 9:16 with the diagram
+  in the upper two thirds and the lower third kept as clean navy for captions.
+
+motion:
+  HOOK: The schematic draws in line by line onto the blueprint ground
+  INTUITION: A steady pan across the assembled drawing, the assumed part flagged
+  REVEAL: An exploded view separates the parts to expose the real mechanism
+  DETAIL: A precise push onto the one callout, its dimension line extending
+  WHY: A pull-back to the full schematic as the parts reassemble into the whole
+  CTA: A calm pull-back to the titled drawing, inviting another look
+
+target_words: [150, 210]
+audio_speed: 1.0
+duration_range: [45, 95]
+kenburns: ffmpeg
+tts_engine: higgsfield      # Inworld voice (karaoke via whisper alignment)
+voice: Mark (en)            # the default Inworld narrator
+caption_style: viral
+budget_credits: 220
+max_hook_retries: 1

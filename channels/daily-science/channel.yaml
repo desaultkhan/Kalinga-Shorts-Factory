@@ -1,0 +1,123 @@
+# ─────────────────────────────────────────────────────────────────────────
+# Sample channel — "daily-science"
+#
+# This is the reference channel shipped with the open-source pipeline. Copy
+# this folder (or run `python3 kalinga.py new-channel <name>`) to start your
+# own. A channel is just a folder under channels/<name>/ that defines the
+# CONTENT (premise, persona, segment beats, research adapter, SEO rules); the
+# channel-agnostic pipeline in pipeline/src/ turns a topic into a finished
+# vertical Short.
+#
+# Each video here explains ONE surprising piece of science in ~60 seconds.
+# Research comes from the `llm` adapter — it web-researches the topic and
+# writes facts.json — so no API keys or data feeds are required beyond the
+# one-time `claude` and `higgsfield` logins.
+# ─────────────────────────────────────────────────────────────────────────
+
+title: Daily Science
+premise: >-
+  One surprising piece of science per video — the counter-intuitive fact, the
+  hidden mechanism, the "wait, WHY does that happen?" moment. Start from an
+  everyday observation the viewer already half-knows, break their intuition,
+  then reveal the real explanation clearly enough that they could re-tell it.
+  Accurate first, awe second; never dumbed-down, never a wall of jargon.
+
+persona: >-
+  a brilliant, warm science communicator who makes you feel smart — explains
+  the way the best teacher you ever had did: a hook that hijacks your
+  curiosity, a clean mental model, one vivid analogy, and a payoff that lands.
+  Precise about the facts, allergic to hype and to "scientists were baffled".
+
+topic_noun: phenomenon       # one video = one phenomenon / question
+research: llm                # web-research the topic → facts.json (no API keys
+                             # needed beyond the claude CLI login). You can also
+                             # set `manual` and drop your own facts.json/facts.md
+                             # into the run folder.
+web_research: true           # add a short live-web-context pass to research
+                             # (cli backend only; set false to skip)
+wiki_grounding: true         # anchor research to the topic's Wikipedia extract
+                             # (a citable ground-truth block; wiki.py) so dates
+                             # and mechanisms are grounded, not hallucinated.
+                             # wiki_image: true would also pull the page's lead
+                             # image as a keyframe reference (off — a diagram
+                             # isn't a good cinematic reference for this look)
+default_template: brightlab  # the visual look in templates/ — switch per video
+                             # with --template <name>
+
+# no positive_verdict — these explain, they don't rule on anything. (A channel
+# that renders a WORTH-IT/SKIP call, a MYTH/CONFIRMED ruling, etc. sets
+# positive_verdict + negative_verdict_markers to drive the verdict-ink lock.)
+
+# ~60s explainer. The writer owns the spoken words; the director owns the
+# visuals. The segments below are a SUGGESTED beat menu, NOT a fixed checklist
+# (flexible_segments) — the writer may combine, drop, add and reorder beats for
+# the best explanation. Only `required: true` beats are enforced (HOOK opens,
+# CTA closes).
+flexible_segments: true
+segments:
+  - label: HOOK
+    required: true
+    max_words: 34
+    guidance: >-
+      (first words = first frame) open on the surprising fact or the question
+      that breaks intuition — concrete and specific, something the viewer can
+      picture. NEVER "did you know" or "have you ever wondered".
+  - label: INTUITION
+    guidance: >-
+      the obvious-but-wrong assumption most people hold about this — name it in
+      one line so the reveal has something to overturn.
+  - label: REVEAL
+    guidance: >-
+      the actual mechanism — the real science, explained with one clean mental
+      model or analogy. This is the core; make it click.
+  - label: DETAIL
+    guidance: >-
+      one vivid, specific detail, number, or example that makes it stick and
+      proves it's real — the thing the viewer will repeat to a friend.
+  - label: WHY
+    guidance: >-
+      zoom out to the deeper principle or why it matters — the "so THAT's why…"
+      that connects it to the wider world. One resonant line, not a recap.
+  - label: CTA
+    required: true
+    max_words: 20
+    guidance: >-
+      close naturally: a one-line button + "follow for one new thing a day."
+      There's always another phenomenon, so a follow feels natural.
+
+voice_rules:
+  - >-
+    Conversational and tight. Favor comma-flow phrasing over choppy sentences —
+    every hard sentence break costs ~0.6s of dead air in the voiceover.
+  - >-
+    Explain, don't lecture. One analogy per video, no jargon without an instant
+    plain-English gloss, no "scientists were stunned" hype.
+  - Stay true to the science; never overstate certainty or invent numbers.
+
+visual_rules: >-
+  Clean, bright, modern science visuals — the ACTIVE TEMPLATE owns the exact
+  look and palette. Each beat is a clear, evocative scene of the phenomenon
+  itself (the thing happening), not a talking head and not stock "person at a
+  whiteboard" imagery. Prefer real-world macro/close-up moments and simple,
+  legible compositions with calm negative space in the lower third for
+  captions. Never photoreal fake charts baked into the image.
+
+seo:
+  title_must_include: ["{topic}"]
+  description_must_include: ["science"]
+  base_hashtags: ["#Science", "#DidYouKnow", "#LearnOnShorts"]
+  base_tags: [science, science facts, how it works, explained, physics,
+              biology, chemistry, space, curiosity, educational, learn]
+  prompt_rules: |-
+    - Title: under 70 chars, curiosity-driven, names the phenomenon and teases
+      the surprise ("Why the sky is NOT actually blue for the reason you think").
+    - Description: 3-5 lines. Line 1 restates the hook as a search phrase, then
+      the intuition + the real mechanism in brief. End with 2-3 hashtags.
+    - Hashtags: mix broad (#Science) and specific (the field / phenomenon).
+    - Tags: cover search intents — the phenomenon name, "why does X happen",
+      "X explained", the field of science.
+
+# Dimensions a creator might A/B by hand (the automated optimizer is not part
+# of this open-source build) — kept as a hint for manual experimentation.
+optimizer_dimensions: [hook style, CTA phrasing, pacing/segment length,
+                       visual style, analogy choice, title style]

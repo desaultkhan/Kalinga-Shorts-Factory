@@ -1,0 +1,3 @@
+Extract the look as a JSON object:
+{"summary": "<2-3 sentences naming the overall aesthetic>", "themes": ["<the big ideas/subjects>"], "palette": "<the colour story>", "lighting": "<lighting style>", "composition": "<framing, layout, negative space, focal habits>", "mood": "<emotional tone>", "motifs": ["<recurring visual elements, shapes, textures>"], "typography": "<if any text/type shows: its style; else ''>", "recreate": "<one directive paragraph: the concrete moves to RE-CREATE this look in a new image or video>"}
+Return ONLY the JSON object.

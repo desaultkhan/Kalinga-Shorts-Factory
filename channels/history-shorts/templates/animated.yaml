@@ -1,0 +1,49 @@
+# "Animated" — modern 2D animated-explainer look. Vibrant flat cel-shading, bold
+# shapes, dynamic motion. Built to be ANIMATED: every beat is designed to move,
+# so the director animates clips rather than holding stills. Reads like a
+# premium animated-history short.
+
+description: modern 2D animation — vibrant cel-shaded shapes, bold motion, animated-explainer
+
+brand:
+  palette: >-
+    rich saturated flats — deep teal, warm ochre-gold, oxblood and cream — with
+    bold clean outlines and one bright pop accent; confident and graphic, high
+    energy, never muddy or washed-out
+  marks: >-
+    graphic animation marks only — a bold shape wipe, a clean motion streak, a
+    pop of accent is the recurring motif; NO photographic logos, NO 3D badges,
+    NO invented lettering on banners
+
+world: >-
+  a modern 2D animated-history world — dramatic historical moments staged as
+  vibrant cel-shaded animation (the fleet on the horizon, the crowded forum, the
+  hand on the parchment), bold flat colour, clean outlines, dynamic staging built
+  to MOVE
+
+style: >-
+  Modern 2D animated illustration — vibrant flat cel-shading with bold clean
+  outlines, rich saturated period colour, simple expressive shapes, strong
+  silhouettes and dynamic composition, a premium animated-explainer / motion-comic
+  look. Absolutely NOT photoreal, NOT a 3D render, NOT a photograph, NOT muddy
+  painterly realism — crisp 2D animation. Vertical 9:16 with the action in the
+  upper two thirds and the lower third kept as clean flat colour for captions.
+
+# every beat is staged to move — the director should animate clips, not stills
+motion:
+  HOOK: A bold animated push into the charged opening as shapes snap into place
+  SETUP: A dynamic pan across the animated setting, elements sliding in
+  TURN: A punchy animated hit on the pivotal moment — the hinge swinging hard
+  STAKES: A driving move onto the human cost, the accent colour flaring
+  LEGACY: An animated pull-back connecting the moment to the wider world
+  CTA: A snappy pull-back mirroring the opening, a clean shape wipe to invite a replay
+
+target_words: [150, 210]
+audio_speed: 1.0
+duration_range: [45, 95]
+kenburns: ffmpeg
+tts_engine: higgsfield      # Inworld voice (karaoke via whisper alignment)
+voice: Mark (en)            # the default Inworld narrator
+caption_style: viral
+budget_credits: 260
+max_hook_retries: 1

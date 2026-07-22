@@ -1,0 +1,47 @@
+# "Chalkboard" — hand-drawn chalk explainer. Warm, classroom-nostalgic,
+# diagrammatic. Best for how-it-works / mechanism topics where a drawn diagram
+# reads clearer than a photo. The illustrated look also sidesteps photoreal
+# artefacts entirely.
+
+description: hand-drawn chalk explainer — dark slate, chalk lines, labelled diagrams
+
+brand:
+  palette: >-
+    dark slate green-black board, soft white and pale-yellow chalk, with ONE
+    warm accent (chalk-orange or sky-blue) for the key idea; dusty, tactile,
+    a little chalk smudge — warm and human, never crisp or digital
+  marks: >-
+    hand-drawn only — a chalk underline, a circled term, a little arrow is the
+    recurring mark; NO photographic logos, NO 3D badges, NO photoreal elements
+
+world: >-
+  a hand-drawn chalkboard world — the phenomenon sketched as a clear labelled
+  diagram in chalk on a dark slate board (arrows, little figures, a few
+  hand-written annotation words), the way the best teacher would draw it live
+
+style: >-
+  Hand-drawn chalk illustration on a dark slate blackboard — confident white and
+  pale-yellow chalk linework with light dusty smudging and visible board texture,
+  one warm chalk-orange or sky-blue accent on the key element, simple labelled
+  diagrams with a few hand-written words and arrows. Warm, tactile, educational.
+  Absolutely NOT photoreal, NOT a 3D render, NOT a photograph — 2D chalk drawing.
+  Vertical 9:16 with the diagram in the upper two thirds and the lower third left
+  as calm, near-empty board for captions.
+
+motion:
+  HOOK: The opening sketch draws itself in, chalk lines appearing on the board
+  INTUITION: A gentle drift across the familiar sketch, the wrong idea circled
+  REVEAL: New chalk lines add the real mechanism — the diagram completing
+  DETAIL: A slow push onto the one labelled detail, its annotation underlined
+  WHY: A pull-back to the whole board as the connection is drawn between parts
+  CTA: A soft pull-back, chalk dust settling, an invitation to watch again
+
+target_words: [150, 210]
+audio_speed: 1.0
+duration_range: [45, 95]
+kenburns: ffmpeg
+tts_engine: higgsfield      # Inworld voice (karaoke via whisper alignment)
+voice: Mark (en)            # the default Inworld narrator
+caption_style: viral
+budget_credits: 220
+max_hook_retries: 1

@@ -1,0 +1,46 @@
+# "Cosmos" — dark, cinematic astro/CGI. Deep-space blacks, volumetric light,
+# a single luminous subject. Best for space, physics and scale topics; reads as
+# premium science-documentary rather than stock footage.
+
+description: cinematic deep-space — inky blacks, volumetric light, one glowing subject
+
+brand:
+  palette: >-
+    near-black space void, deep indigo and teal nebula haze, with ONE luminous
+    accent (electric cyan or warm star-gold) and crisp specular highlights;
+    dramatic, high-contrast, never flat or grey
+  marks: >-
+    none baked in — the light IS the mark. A faint lens-bloom or a thin ring of
+    light is the only recurring motif. NO logos, NO 3D badges, NO text baked in
+
+world: >-
+  a cinematic deep-space / astrophysics world — a single hero subject (a planet,
+  a photon, a molecule, a wave) suspended in an inky void, lit by one directional
+  source with volumetric god-rays and soft nebula haze, rendered like a premium
+  science documentary or a high-end CGI simulation
+
+style: >-
+  Cinematic 3D / astrophotography look — deep true-black background, one dramatic
+  directional key light, volumetric light shafts, subtle lens bloom and depth of
+  field, an electric-cyan or star-gold accent against cool indigo-teal haze.
+  Awe-inducing, IMAX-scale, physically plausible; NOT flat, NOT cartoonish, NOT a
+  bright daylight scene. Vertical 9:16 with the luminous subject in the upper two
+  thirds and the lower third falling to clean darkness for captions.
+
+motion:
+  HOOK: A slow push through the dark toward the glowing subject as it ignites
+  INTUITION: A drift around the familiar view, light grazing the surface
+  REVEAL: The camera pulls to reveal the mechanism — scale opening up in the void
+  DETAIL: A slow macro push onto the one luminous detail, bloom flaring
+  WHY: A grand pull-back to a wide, the subject small against the cosmos
+  CTA: A gentle drift back into the dark, the light receding to invite a replay
+
+target_words: [150, 210]
+audio_speed: 1.0
+duration_range: [45, 95]
+kenburns: ffmpeg
+tts_engine: higgsfield      # Inworld voice (karaoke via whisper alignment)
+voice: Mark (en)            # the default Inworld narrator
+caption_style: viral
+budget_credits: 240
+max_hook_retries: 1

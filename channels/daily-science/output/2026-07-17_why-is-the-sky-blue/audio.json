@@ -1,0 +1,1034 @@
+{
+  "topic": "why-is-the-sky-blue",
+  "verdict": null,
+  "engine": "higgsfield",
+  "cast": {},
+  "total": 78.28,
+  "segments": [
+    {
+      "index": 0,
+      "label": "HOOK",
+      "text": "The sky should be violet, not blue \u2014 violet scatters way harder than blue does, so why aren't we all staring up at a purple atmosphere every single day?",
+      "overlay": "Why Not Violet?",
+      "speaker": null,
+      "file": "seg0.mp3",
+      "duration": 10.26,
+      "words": [
+        {
+          "word": "The",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "word": "sky",
+          "start": 0.32,
+          "end": 0.56
+        },
+        {
+          "word": "should",
+          "start": 0.56,
+          "end": 0.92
+        },
+        {
+          "word": "be",
+          "start": 0.92,
+          "end": 1.06
+        },
+        {
+          "word": "violet,",
+          "start": 1.06,
+          "end": 1.3
+        },
+        {
+          "word": "not",
+          "start": 1.68,
+          "end": 1.8
+        },
+        {
+          "word": "blue.",
+          "start": 1.8,
+          "end": 2.06
+        },
+        {
+          "word": "Violet",
+          "start": 3.12,
+          "end": 3.12
+        },
+        {
+          "word": "scatters",
+          "start": 3.12,
+          "end": 3.52
+        },
+        {
+          "word": "way",
+          "start": 3.52,
+          "end": 3.9
+        },
+        {
+          "word": "harder",
+          "start": 3.9,
+          "end": 4.28
+        },
+        {
+          "word": "than",
+          "start": 4.28,
+          "end": 4.54
+        },
+        {
+          "word": "blue",
+          "start": 4.54,
+          "end": 4.72
+        },
+        {
+          "word": "does.",
+          "start": 4.72,
+          "end": 5.06
+        },
+        {
+          "word": "So",
+          "start": 5.7,
+          "end": 5.74
+        },
+        {
+          "word": "why",
+          "start": 5.74,
+          "end": 6.02
+        },
+        {
+          "word": "aren't",
+          "start": 6.02,
+          "end": 6.32
+        },
+        {
+          "word": "we",
+          "start": 6.32,
+          "end": 6.42
+        },
+        {
+          "word": "all",
+          "start": 6.42,
+          "end": 6.62
+        },
+        {
+          "word": "staring",
+          "start": 6.62,
+          "end": 6.9
+        },
+        {
+          "word": "up",
+          "start": 6.9,
+          "end": 7.36
+        },
+        {
+          "word": "at",
+          "start": 7.36,
+          "end": 7.66
+        },
+        {
+          "word": "a",
+          "start": 7.66,
+          "end": 7.72
+        },
+        {
+          "word": "purple",
+          "start": 7.72,
+          "end": 7.92
+        },
+        {
+          "word": "atmosphere",
+          "start": 7.92,
+          "end": 8.52
+        },
+        {
+          "word": "every",
+          "start": 8.52,
+          "end": 9.14
+        },
+        {
+          "word": "single",
+          "start": 9.14,
+          "end": 9.46
+        },
+        {
+          "word": "day?",
+          "start": 9.46,
+          "end": 9.94
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "label": "REVEAL",
+      "text": "And no, it's not the ocean \u2014 that's the internet's favorite wrong answer. It's the air itself: sunlight collides with nitrogen and oxygen molecules a thousand times smaller than a wavelength of light, scatters in every direction... but short wavelengths scatter way harder, following an inverse-fourth-power rule. Blue bounces around the atmosphere five to ten times more than red.",
+      "overlay": "1/\u03bb\u2074",
+      "speaker": null,
+      "file": "seg1.mp3",
+      "duration": 25.06,
+      "words": [
+        {
+          "word": "And",
+          "start": 0.0,
+          "end": 0.22
+        },
+        {
+          "word": "no,",
+          "start": 0.22,
+          "end": 0.48
+        },
+        {
+          "word": "it's",
+          "start": 0.78,
+          "end": 0.96
+        },
+        {
+          "word": "not",
+          "start": 0.96,
+          "end": 1.14
+        },
+        {
+          "word": "the",
+          "start": 1.14,
+          "end": 1.3
+        },
+        {
+          "word": "ocean.",
+          "start": 1.3,
+          "end": 1.56
+        },
+        {
+          "word": "That's",
+          "start": 2.32,
+          "end": 2.42
+        },
+        {
+          "word": "the",
+          "start": 2.42,
+          "end": 2.54
+        },
+        {
+          "word": "internet's",
+          "start": 2.54,
+          "end": 3.02
+        },
+        {
+          "word": "favorite",
+          "start": 3.02,
+          "end": 3.36
+        },
+        {
+          "word": "wrong",
+          "start": 3.36,
+          "end": 3.8
+        },
+        {
+          "word": "answer.",
+          "start": 3.8,
+          "end": 4.32
+        },
+        {
+          "word": "It's",
+          "start": 4.86,
+          "end": 4.96
+        },
+        {
+          "word": "the",
+          "start": 4.96,
+          "end": 5.06
+        },
+        {
+          "word": "air",
+          "start": 5.06,
+          "end": 5.32
+        },
+        {
+          "word": "itself.",
+          "start": 5.32,
+          "end": 5.56
+        },
+        {
+          "word": "Sunlight",
+          "start": 6.62,
+          "end": 6.88
+        },
+        {
+          "word": "collides",
+          "start": 6.88,
+          "end": 7.38
+        },
+        {
+          "word": "with",
+          "start": 7.38,
+          "end": 7.6
+        },
+        {
+          "word": "nitrogen",
+          "start": 7.6,
+          "end": 7.98
+        },
+        {
+          "word": "and",
+          "start": 7.98,
+          "end": 8.42
+        },
+        {
+          "word": "oxygen",
+          "start": 8.42,
+          "end": 8.82
+        },
+        {
+          "word": "molecules",
+          "start": 8.82,
+          "end": 9.34
+        },
+        {
+          "word": "a",
+          "start": 9.34,
+          "end": 9.8
+        },
+        {
+          "word": "thousand",
+          "start": 9.8,
+          "end": 10.08
+        },
+        {
+          "word": "times",
+          "start": 10.08,
+          "end": 10.6
+        },
+        {
+          "word": "smaller",
+          "start": 10.6,
+          "end": 10.9
+        },
+        {
+          "word": "than",
+          "start": 10.9,
+          "end": 11.24
+        },
+        {
+          "word": "a",
+          "start": 11.24,
+          "end": 11.32
+        },
+        {
+          "word": "wavelength",
+          "start": 11.32,
+          "end": 11.5
+        },
+        {
+          "word": "of",
+          "start": 11.5,
+          "end": 11.88
+        },
+        {
+          "word": "light.",
+          "start": 11.88,
+          "end": 12.1
+        },
+        {
+          "word": "Scatters",
+          "start": 12.6,
+          "end": 12.96
+        },
+        {
+          "word": "in",
+          "start": 12.96,
+          "end": 13.2
+        },
+        {
+          "word": "every",
+          "start": 13.2,
+          "end": 13.4
+        },
+        {
+          "word": "direction.",
+          "start": 13.4,
+          "end": 13.9
+        },
+        {
+          "word": "But",
+          "start": 14.64,
+          "end": 14.7
+        },
+        {
+          "word": "short",
+          "start": 14.7,
+          "end": 14.94
+        },
+        {
+          "word": "wavelengths",
+          "start": 14.94,
+          "end": 15.54
+        },
+        {
+          "word": "scatter",
+          "start": 15.54,
+          "end": 16.2
+        },
+        {
+          "word": "way",
+          "start": 16.2,
+          "end": 16.64
+        },
+        {
+          "word": "harder,",
+          "start": 16.64,
+          "end": 17.16
+        },
+        {
+          "word": "following",
+          "start": 17.6,
+          "end": 18.0
+        },
+        {
+          "word": "an",
+          "start": 18.0,
+          "end": 18.22
+        },
+        {
+          "word": "inverse",
+          "start": 18.22,
+          "end": 18.64
+        },
+        {
+          "word": "fourth",
+          "start": 18.64,
+          "end": 19.08
+        },
+        {
+          "word": "power",
+          "start": 19.08,
+          "end": 19.4
+        },
+        {
+          "word": "rule.",
+          "start": 19.4,
+          "end": 19.84
+        },
+        {
+          "word": "Blue",
+          "start": 20.66,
+          "end": 20.66
+        },
+        {
+          "word": "bounces",
+          "start": 20.66,
+          "end": 21.1
+        },
+        {
+          "word": "around",
+          "start": 21.1,
+          "end": 21.52
+        },
+        {
+          "word": "the",
+          "start": 21.52,
+          "end": 21.7
+        },
+        {
+          "word": "atmosphere",
+          "start": 21.7,
+          "end": 22.14
+        },
+        {
+          "word": "five",
+          "start": 22.14,
+          "end": 23.0
+        },
+        {
+          "word": "to",
+          "start": 23.0,
+          "end": 23.28
+        },
+        {
+          "word": "ten",
+          "start": 23.28,
+          "end": 23.56
+        },
+        {
+          "word": "times",
+          "start": 23.56,
+          "end": 23.9
+        },
+        {
+          "word": "more",
+          "start": 23.9,
+          "end": 24.18
+        },
+        {
+          "word": "than",
+          "start": 24.18,
+          "end": 24.36
+        },
+        {
+          "word": "red.",
+          "start": 24.36,
+          "end": 24.62
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "DETAIL",
+      "text": "Here's the kicker: violet actually scatters the MOST, so the violet-sky paradox is completely real. Three things save us from purple skies \u2014 the sun emits less violet to begin with, ozone absorbs a chunk before it reaches us, and your eyes are genuinely terrible at violet, so the scattered mix your brain reads comes out blue.",
+      "overlay": "3 Reasons",
+      "speaker": null,
+      "file": "seg2.mp3",
+      "duration": 22.22,
+      "words": [
+        {
+          "word": "Here's",
+          "start": 0.0,
+          "end": 0.34
+        },
+        {
+          "word": "the",
+          "start": 0.34,
+          "end": 0.42
+        },
+        {
+          "word": "kicker.",
+          "start": 0.42,
+          "end": 0.62
+        },
+        {
+          "word": "Violet",
+          "start": 1.58,
+          "end": 1.58
+        },
+        {
+          "word": "actually",
+          "start": 1.58,
+          "end": 2.2
+        },
+        {
+          "word": "scatters",
+          "start": 2.2,
+          "end": 2.68
+        },
+        {
+          "word": "the",
+          "start": 2.68,
+          "end": 2.94
+        },
+        {
+          "word": "most,",
+          "start": 2.94,
+          "end": 3.24
+        },
+        {
+          "word": "so",
+          "start": 3.92,
+          "end": 4.02
+        },
+        {
+          "word": "the",
+          "start": 4.02,
+          "end": 4.2
+        },
+        {
+          "word": "Violet",
+          "start": 4.2,
+          "end": 4.54
+        },
+        {
+          "word": "Sky",
+          "start": 4.54,
+          "end": 4.82
+        },
+        {
+          "word": "Paradox",
+          "start": 4.82,
+          "end": 5.28
+        },
+        {
+          "word": "is",
+          "start": 5.28,
+          "end": 5.72
+        },
+        {
+          "word": "completely",
+          "start": 5.72,
+          "end": 6.22
+        },
+        {
+          "word": "real.",
+          "start": 6.22,
+          "end": 6.8
+        },
+        {
+          "word": "Three",
+          "start": 7.6,
+          "end": 7.6
+        },
+        {
+          "word": "things",
+          "start": 7.6,
+          "end": 7.9
+        },
+        {
+          "word": "save",
+          "start": 7.9,
+          "end": 8.46
+        },
+        {
+          "word": "us",
+          "start": 8.46,
+          "end": 8.62
+        },
+        {
+          "word": "from",
+          "start": 8.62,
+          "end": 8.82
+        },
+        {
+          "word": "purple",
+          "start": 8.82,
+          "end": 9.02
+        },
+        {
+          "word": "skies.",
+          "start": 9.02,
+          "end": 9.38
+        },
+        {
+          "word": "The",
+          "start": 10.12,
+          "end": 10.2
+        },
+        {
+          "word": "sun",
+          "start": 10.2,
+          "end": 10.44
+        },
+        {
+          "word": "emits",
+          "start": 10.44,
+          "end": 10.64
+        },
+        {
+          "word": "less",
+          "start": 10.64,
+          "end": 11.06
+        },
+        {
+          "word": "violet",
+          "start": 11.06,
+          "end": 11.36
+        },
+        {
+          "word": "to",
+          "start": 11.36,
+          "end": 11.62
+        },
+        {
+          "word": "begin",
+          "start": 11.62,
+          "end": 11.82
+        },
+        {
+          "word": "with.",
+          "start": 11.82,
+          "end": 12.06
+        },
+        {
+          "word": "Ozone",
+          "start": 12.72,
+          "end": 12.96
+        },
+        {
+          "word": "absorbs",
+          "start": 12.96,
+          "end": 13.44
+        },
+        {
+          "word": "a",
+          "start": 13.44,
+          "end": 13.82
+        },
+        {
+          "word": "chunk",
+          "start": 13.82,
+          "end": 14.0
+        },
+        {
+          "word": "before",
+          "start": 14.0,
+          "end": 14.46
+        },
+        {
+          "word": "it",
+          "start": 14.46,
+          "end": 14.66
+        },
+        {
+          "word": "reaches",
+          "start": 14.66,
+          "end": 14.9
+        },
+        {
+          "word": "us,",
+          "start": 14.9,
+          "end": 15.16
+        },
+        {
+          "word": "and",
+          "start": 15.62,
+          "end": 15.76
+        },
+        {
+          "word": "your",
+          "start": 15.76,
+          "end": 15.92
+        },
+        {
+          "word": "eyes",
+          "start": 15.92,
+          "end": 16.3
+        },
+        {
+          "word": "are",
+          "start": 16.3,
+          "end": 16.58
+        },
+        {
+          "word": "genuinely",
+          "start": 16.58,
+          "end": 17.02
+        },
+        {
+          "word": "terrible",
+          "start": 17.02,
+          "end": 17.62
+        },
+        {
+          "word": "at",
+          "start": 17.62,
+          "end": 18.0
+        },
+        {
+          "word": "Violet,",
+          "start": 18.0,
+          "end": 18.18
+        },
+        {
+          "word": "so",
+          "start": 18.7,
+          "end": 18.94
+        },
+        {
+          "word": "the",
+          "start": 18.94,
+          "end": 19.1
+        },
+        {
+          "word": "scattered",
+          "start": 19.1,
+          "end": 19.54
+        },
+        {
+          "word": "mix",
+          "start": 19.54,
+          "end": 19.78
+        },
+        {
+          "word": "your",
+          "start": 19.78,
+          "end": 20.02
+        },
+        {
+          "word": "brain",
+          "start": 20.02,
+          "end": 20.26
+        },
+        {
+          "word": "reads",
+          "start": 20.26,
+          "end": 20.56
+        },
+        {
+          "word": "comes",
+          "start": 20.56,
+          "end": 21.32
+        },
+        {
+          "word": "out",
+          "start": 21.32,
+          "end": 21.6
+        },
+        {
+          "word": "blue.",
+          "start": 21.6,
+          "end": 21.8
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "WHY",
+      "text": "Same scattering, flipped: sunsets are red because at low angles light crosses miles more atmosphere, all the blue scatters sideways, and what finally reaches you is the handful of reds and oranges that made it through.",
+      "overlay": "Same Scattering",
+      "speaker": null,
+      "file": "seg3.mp3",
+      "duration": 15.58,
+      "words": [
+        {
+          "word": "Same",
+          "start": 0.0,
+          "end": 0.48
+        },
+        {
+          "word": "scattering,",
+          "start": 0.48,
+          "end": 0.84
+        },
+        {
+          "word": "flipped,",
+          "start": 1.54,
+          "end": 1.68
+        },
+        {
+          "word": "sunsets",
+          "start": 2.32,
+          "end": 2.82
+        },
+        {
+          "word": "are",
+          "start": 2.82,
+          "end": 3.1
+        },
+        {
+          "word": "red,",
+          "start": 3.1,
+          "end": 3.36
+        },
+        {
+          "word": "because",
+          "start": 3.84,
+          "end": 4.02
+        },
+        {
+          "word": "at",
+          "start": 4.02,
+          "end": 4.16
+        },
+        {
+          "word": "low",
+          "start": 4.16,
+          "end": 4.36
+        },
+        {
+          "word": "angles",
+          "start": 4.36,
+          "end": 4.94
+        },
+        {
+          "word": "light",
+          "start": 4.94,
+          "end": 5.26
+        },
+        {
+          "word": "crosses",
+          "start": 5.26,
+          "end": 5.84
+        },
+        {
+          "word": "miles",
+          "start": 5.84,
+          "end": 6.2
+        },
+        {
+          "word": "more",
+          "start": 6.2,
+          "end": 6.7
+        },
+        {
+          "word": "atmosphere.",
+          "start": 6.7,
+          "end": 7.22
+        },
+        {
+          "word": "All",
+          "start": 8.3,
+          "end": 8.42
+        },
+        {
+          "word": "the",
+          "start": 8.42,
+          "end": 8.62
+        },
+        {
+          "word": "blue",
+          "start": 8.62,
+          "end": 8.84
+        },
+        {
+          "word": "scatters",
+          "start": 8.84,
+          "end": 9.36
+        },
+        {
+          "word": "sideways,",
+          "start": 9.36,
+          "end": 9.7
+        },
+        {
+          "word": "and",
+          "start": 10.38,
+          "end": 10.7
+        },
+        {
+          "word": "what",
+          "start": 10.7,
+          "end": 10.84
+        },
+        {
+          "word": "finally",
+          "start": 10.84,
+          "end": 11.3
+        },
+        {
+          "word": "reaches",
+          "start": 11.3,
+          "end": 11.76
+        },
+        {
+          "word": "you",
+          "start": 11.76,
+          "end": 12.12
+        },
+        {
+          "word": "is",
+          "start": 12.12,
+          "end": 12.4
+        },
+        {
+          "word": "the",
+          "start": 12.4,
+          "end": 12.54
+        },
+        {
+          "word": "handful",
+          "start": 12.54,
+          "end": 12.84
+        },
+        {
+          "word": "of",
+          "start": 12.84,
+          "end": 13.22
+        },
+        {
+          "word": "reds",
+          "start": 13.22,
+          "end": 13.64
+        },
+        {
+          "word": "and",
+          "start": 13.64,
+          "end": 13.74
+        },
+        {
+          "word": "oranges",
+          "start": 13.74,
+          "end": 14.04
+        },
+        {
+          "word": "that",
+          "start": 14.04,
+          "end": 14.54
+        },
+        {
+          "word": "made",
+          "start": 14.54,
+          "end": 14.74
+        },
+        {
+          "word": "it",
+          "start": 14.74,
+          "end": 14.92
+        },
+        {
+          "word": "through.",
+          "start": 14.92,
+          "end": 15.16
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "CTA",
+      "text": "Would you take a purple sky? Follow for one new thing a day.",
+      "overlay": "Follow For More",
+      "speaker": null,
+      "file": "seg4.mp3",
+      "duration": 5.16,
+      "words": [
+        {
+          "word": "Would",
+          "start": 0.0,
+          "end": 0.2
+        },
+        {
+          "word": "you",
+          "start": 0.2,
+          "end": 0.44
+        },
+        {
+          "word": "take",
+          "start": 0.44,
+          "end": 0.82
+        },
+        {
+          "word": "a",
+          "start": 0.82,
+          "end": 0.98
+        },
+        {
+          "word": "purple",
+          "start": 0.98,
+          "end": 1.22
+        },
+        {
+          "word": "sky?",
+          "start": 1.22,
+          "end": 1.76
+        },
+        {
+          "word": "Follow",
+          "start": 2.3,
+          "end": 2.66
+        },
+        {
+          "word": "for",
+          "start": 2.66,
+          "end": 3.12
+        },
+        {
+          "word": "one",
+          "start": 3.12,
+          "end": 3.4
+        },
+        {
+          "word": "new",
+          "start": 3.4,
+          "end": 3.9
+        },
+        {
+          "word": "thing",
+          "start": 3.9,
+          "end": 4.3
+        },
+        {
+          "word": "a",
+          "start": 4.3,
+          "end": 4.54
+        },
+        {
+          "word": "day.",
+          "start": 4.54,
+          "end": 4.76
+        }
+      ]
+    }
+  ]
+}

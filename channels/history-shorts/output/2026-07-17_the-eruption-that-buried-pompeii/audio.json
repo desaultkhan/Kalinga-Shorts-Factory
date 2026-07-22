@@ -1,0 +1,1056 @@
+{
+  "topic": "the-eruption-that-buried-pompeii",
+  "verdict": null,
+  "engine": "higgsfield",
+  "cast": {},
+  "total": 87.51999999999998,
+  "segments": [
+    {
+      "index": 0,
+      "label": "HOOK",
+      "text": "Pompeii's victims didn't suffocate. A pyroclastic surge at 250 degrees vaporized their blood in a fraction of a second \u2014 some skulls literally exploded from the pressure.",
+      "overlay": "250\u00b0C",
+      "speaker": null,
+      "file": "seg0.mp3",
+      "duration": 11.02,
+      "words": [
+        {
+          "word": "Pompeii's",
+          "start": 0.0,
+          "end": 0.66
+        },
+        {
+          "word": "victims",
+          "start": 0.66,
+          "end": 0.98
+        },
+        {
+          "word": "didn't",
+          "start": 0.98,
+          "end": 1.42
+        },
+        {
+          "word": "suffocate.",
+          "start": 1.42,
+          "end": 1.88
+        },
+        {
+          "word": "A",
+          "start": 2.58,
+          "end": 2.6
+        },
+        {
+          "word": "pyroclastic",
+          "start": 2.6,
+          "end": 3.36
+        },
+        {
+          "word": "surge",
+          "start": 3.36,
+          "end": 3.7
+        },
+        {
+          "word": "at",
+          "start": 3.7,
+          "end": 4.0
+        },
+        {
+          "word": "250",
+          "start": 4.0,
+          "end": 4.26
+        },
+        {
+          "word": "degrees",
+          "start": 4.26,
+          "end": 5.22
+        },
+        {
+          "word": "vaporized",
+          "start": 5.22,
+          "end": 6.12
+        },
+        {
+          "word": "their",
+          "start": 6.12,
+          "end": 6.26
+        },
+        {
+          "word": "blood",
+          "start": 6.26,
+          "end": 6.54
+        },
+        {
+          "word": "in",
+          "start": 6.54,
+          "end": 6.72
+        },
+        {
+          "word": "a",
+          "start": 6.72,
+          "end": 6.8
+        },
+        {
+          "word": "fraction",
+          "start": 6.8,
+          "end": 7.06
+        },
+        {
+          "word": "of",
+          "start": 7.06,
+          "end": 7.36
+        },
+        {
+          "word": "a",
+          "start": 7.36,
+          "end": 7.42
+        },
+        {
+          "word": "second.",
+          "start": 7.42,
+          "end": 7.72
+        },
+        {
+          "word": "Some",
+          "start": 8.42,
+          "end": 8.5
+        },
+        {
+          "word": "skulls",
+          "start": 8.5,
+          "end": 8.78
+        },
+        {
+          "word": "literally",
+          "start": 8.78,
+          "end": 9.4
+        },
+        {
+          "word": "exploded",
+          "start": 9.4,
+          "end": 9.72
+        },
+        {
+          "word": "from",
+          "start": 9.72,
+          "end": 10.26
+        },
+        {
+          "word": "the",
+          "start": 10.26,
+          "end": 10.36
+        },
+        {
+          "word": "pressure.",
+          "start": 10.36,
+          "end": 10.54
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "label": "SETUP",
+      "text": "October, 79 AD. Over 20,000 people in two prosperous Roman towns, living under a mountain they didn't know was a volcano. Vesuvius hadn't erupted in living memory.",
+      "overlay": "79 AD",
+      "speaker": null,
+      "file": "seg1.mp3",
+      "duration": 13.1,
+      "words": [
+        {
+          "word": "October,",
+          "start": 0.0,
+          "end": 0.56
+        },
+        {
+          "word": "79",
+          "start": 1.18,
+          "end": 1.58
+        },
+        {
+          "word": "AD.",
+          "start": 1.58,
+          "end": 2.56
+        },
+        {
+          "word": "Over",
+          "start": 3.36,
+          "end": 3.36
+        },
+        {
+          "word": "20",
+          "start": 3.36,
+          "end": 3.72
+        },
+        {
+          "word": ",000",
+          "start": 3.72,
+          "end": 4.18
+        },
+        {
+          "word": "people",
+          "start": 4.18,
+          "end": 4.54
+        },
+        {
+          "word": "in",
+          "start": 4.54,
+          "end": 4.8
+        },
+        {
+          "word": "two",
+          "start": 4.8,
+          "end": 5.02
+        },
+        {
+          "word": "prosperous",
+          "start": 5.02,
+          "end": 5.54
+        },
+        {
+          "word": "Roman",
+          "start": 5.54,
+          "end": 6.04
+        },
+        {
+          "word": "towns",
+          "start": 6.04,
+          "end": 6.5
+        },
+        {
+          "word": "living",
+          "start": 6.5,
+          "end": 7.14
+        },
+        {
+          "word": "under",
+          "start": 7.14,
+          "end": 7.5
+        },
+        {
+          "word": "a",
+          "start": 7.5,
+          "end": 7.66
+        },
+        {
+          "word": "mountain",
+          "start": 7.66,
+          "end": 7.96
+        },
+        {
+          "word": "they",
+          "start": 7.96,
+          "end": 8.34
+        },
+        {
+          "word": "didn't",
+          "start": 8.34,
+          "end": 8.66
+        },
+        {
+          "word": "know",
+          "start": 8.66,
+          "end": 8.86
+        },
+        {
+          "word": "was",
+          "start": 8.86,
+          "end": 9.1
+        },
+        {
+          "word": "a",
+          "start": 9.1,
+          "end": 9.2
+        },
+        {
+          "word": "volcano.",
+          "start": 9.2,
+          "end": 9.58
+        },
+        {
+          "word": "Vesuvius",
+          "start": 10.36,
+          "end": 10.82
+        },
+        {
+          "word": "hadn't",
+          "start": 10.82,
+          "end": 11.32
+        },
+        {
+          "word": "erupted",
+          "start": 11.32,
+          "end": 11.66
+        },
+        {
+          "word": "in",
+          "start": 11.66,
+          "end": 12.02
+        },
+        {
+          "word": "living",
+          "start": 12.02,
+          "end": 12.24
+        },
+        {
+          "word": "memory.",
+          "start": 12.24,
+          "end": 12.7
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "label": "WARNINGS",
+      "text": "For four days the ground shook harder. Wells went dry. Livestock panicked. But tremors were normal in Campania \u2014 they'd felt them all their lives. Just another Tuesday.",
+      "overlay": "Four Days",
+      "speaker": null,
+      "file": "seg2.mp3",
+      "duration": 11.88,
+      "words": [
+        {
+          "word": "For",
+          "start": 0.0,
+          "end": 0.56
+        },
+        {
+          "word": "four",
+          "start": 0.56,
+          "end": 0.78
+        },
+        {
+          "word": "days",
+          "start": 0.78,
+          "end": 1.2
+        },
+        {
+          "word": "the",
+          "start": 1.2,
+          "end": 1.52
+        },
+        {
+          "word": "ground",
+          "start": 1.52,
+          "end": 1.74
+        },
+        {
+          "word": "shook",
+          "start": 1.74,
+          "end": 2.08
+        },
+        {
+          "word": "harder,",
+          "start": 2.08,
+          "end": 2.5
+        },
+        {
+          "word": "wells",
+          "start": 3.4,
+          "end": 3.4
+        },
+        {
+          "word": "went",
+          "start": 3.4,
+          "end": 3.8
+        },
+        {
+          "word": "dry,",
+          "start": 3.8,
+          "end": 4.12
+        },
+        {
+          "word": "livestock",
+          "start": 5.24,
+          "end": 5.24
+        },
+        {
+          "word": "panicked,",
+          "start": 5.24,
+          "end": 5.84
+        },
+        {
+          "word": "but",
+          "start": 6.48,
+          "end": 6.5
+        },
+        {
+          "word": "tremors",
+          "start": 6.5,
+          "end": 6.96
+        },
+        {
+          "word": "were",
+          "start": 6.96,
+          "end": 7.16
+        },
+        {
+          "word": "normal",
+          "start": 7.16,
+          "end": 7.46
+        },
+        {
+          "word": "in",
+          "start": 7.46,
+          "end": 7.74
+        },
+        {
+          "word": "Campania,",
+          "start": 7.74,
+          "end": 8.16
+        },
+        {
+          "word": "they'd",
+          "start": 8.76,
+          "end": 8.9
+        },
+        {
+          "word": "felt",
+          "start": 8.9,
+          "end": 9.06
+        },
+        {
+          "word": "them",
+          "start": 9.06,
+          "end": 9.32
+        },
+        {
+          "word": "all",
+          "start": 9.32,
+          "end": 9.48
+        },
+        {
+          "word": "their",
+          "start": 9.48,
+          "end": 9.62
+        },
+        {
+          "word": "lives,",
+          "start": 9.62,
+          "end": 10.0
+        },
+        {
+          "word": "just",
+          "start": 10.46,
+          "end": 10.64
+        },
+        {
+          "word": "another",
+          "start": 10.64,
+          "end": 10.96
+        },
+        {
+          "word": "Tuesday.",
+          "start": 10.96,
+          "end": 11.24
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "label": "TURN",
+      "text": "Then the mountain exploded. A 33-kilometer column punched into the stratosphere \u2014 100,000 times the energy of Hiroshima. The air itself could kill.",
+      "overlay": "33 km High",
+      "speaker": null,
+      "file": "seg3.mp3",
+      "duration": 14.5,
+      "words": [
+        {
+          "word": "Then,",
+          "start": 0.0,
+          "end": 0.58
+        },
+        {
+          "word": "the",
+          "start": 1.18,
+          "end": 1.42
+        },
+        {
+          "word": "mountain",
+          "start": 1.42,
+          "end": 1.96
+        },
+        {
+          "word": "exploded.",
+          "start": 1.96,
+          "end": 2.66
+        },
+        {
+          "word": "A",
+          "start": 3.66,
+          "end": 3.68
+        },
+        {
+          "word": "33",
+          "start": 3.68,
+          "end": 4.06
+        },
+        {
+          "word": "-kilometer",
+          "start": 4.06,
+          "end": 4.84
+        },
+        {
+          "word": "column",
+          "start": 4.84,
+          "end": 5.4
+        },
+        {
+          "word": "punched",
+          "start": 5.4,
+          "end": 6.0
+        },
+        {
+          "word": "into",
+          "start": 6.0,
+          "end": 6.46
+        },
+        {
+          "word": "the",
+          "start": 6.46,
+          "end": 6.72
+        },
+        {
+          "word": "stratosphere.",
+          "start": 6.72,
+          "end": 7.32
+        },
+        {
+          "word": "100",
+          "start": 8.16,
+          "end": 8.42
+        },
+        {
+          "word": ",000",
+          "start": 8.42,
+          "end": 9.5
+        },
+        {
+          "word": "times",
+          "start": 9.5,
+          "end": 9.84
+        },
+        {
+          "word": "the",
+          "start": 9.84,
+          "end": 10.24
+        },
+        {
+          "word": "energy",
+          "start": 10.24,
+          "end": 10.6
+        },
+        {
+          "word": "of",
+          "start": 10.6,
+          "end": 10.92
+        },
+        {
+          "word": "Hiroshima,",
+          "start": 10.92,
+          "end": 11.18
+        },
+        {
+          "word": "the",
+          "start": 12.08,
+          "end": 12.2
+        },
+        {
+          "word": "air",
+          "start": 12.2,
+          "end": 12.46
+        },
+        {
+          "word": "itself",
+          "start": 12.46,
+          "end": 13.02
+        },
+        {
+          "word": "could",
+          "start": 13.02,
+          "end": 13.8
+        },
+        {
+          "word": "kill.",
+          "start": 13.8,
+          "end": 14.14
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "label": "PLINY",
+      "text": "Admiral Pliny the Elder, the famous naturalist, launched ships to evacuate the coast. He died the next day from volcanic gases, trying to save strangers. They found his body unmarked. Just... stopped.",
+      "overlay": "Pliny the Elder",
+      "speaker": null,
+      "file": "seg4.mp3",
+      "duration": 16.02,
+      "words": [
+        {
+          "word": "Admiral",
+          "start": 0.0,
+          "end": 0.64
+        },
+        {
+          "word": "Pliny",
+          "start": 0.64,
+          "end": 1.14
+        },
+        {
+          "word": "the",
+          "start": 1.14,
+          "end": 1.42
+        },
+        {
+          "word": "Elder,",
+          "start": 1.42,
+          "end": 1.72
+        },
+        {
+          "word": "the",
+          "start": 2.18,
+          "end": 2.28
+        },
+        {
+          "word": "famous",
+          "start": 2.28,
+          "end": 2.52
+        },
+        {
+          "word": "naturalist,",
+          "start": 2.52,
+          "end": 3.3
+        },
+        {
+          "word": "launched",
+          "start": 3.54,
+          "end": 3.88
+        },
+        {
+          "word": "ships",
+          "start": 3.88,
+          "end": 4.38
+        },
+        {
+          "word": "to",
+          "start": 4.38,
+          "end": 4.74
+        },
+        {
+          "word": "evacuate",
+          "start": 4.74,
+          "end": 4.98
+        },
+        {
+          "word": "the",
+          "start": 4.98,
+          "end": 5.52
+        },
+        {
+          "word": "coast.",
+          "start": 5.52,
+          "end": 5.8
+        },
+        {
+          "word": "He",
+          "start": 6.66,
+          "end": 6.68
+        },
+        {
+          "word": "died",
+          "start": 6.68,
+          "end": 6.92
+        },
+        {
+          "word": "the",
+          "start": 6.92,
+          "end": 7.2
+        },
+        {
+          "word": "next",
+          "start": 7.2,
+          "end": 7.4
+        },
+        {
+          "word": "day",
+          "start": 7.4,
+          "end": 7.76
+        },
+        {
+          "word": "from",
+          "start": 7.76,
+          "end": 8.04
+        },
+        {
+          "word": "volcanic",
+          "start": 8.04,
+          "end": 8.32
+        },
+        {
+          "word": "gases,",
+          "start": 8.32,
+          "end": 9.0
+        },
+        {
+          "word": "trying",
+          "start": 9.06,
+          "end": 9.86
+        },
+        {
+          "word": "to",
+          "start": 9.86,
+          "end": 10.1
+        },
+        {
+          "word": "save",
+          "start": 10.1,
+          "end": 10.4
+        },
+        {
+          "word": "strangers.",
+          "start": 10.4,
+          "end": 10.86
+        },
+        {
+          "word": "They",
+          "start": 11.66,
+          "end": 11.78
+        },
+        {
+          "word": "found",
+          "start": 11.78,
+          "end": 12.04
+        },
+        {
+          "word": "his",
+          "start": 12.04,
+          "end": 12.32
+        },
+        {
+          "word": "body",
+          "start": 12.32,
+          "end": 12.66
+        },
+        {
+          "word": "unmarked.",
+          "start": 12.66,
+          "end": 13.0
+        },
+        {
+          "word": "Just",
+          "start": 14.499999999999996,
+          "end": 15.099999999999998
+        },
+        {
+          "word": "stopped.",
+          "start": 15.099999999999998,
+          "end": 15.7
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "label": "LEGACY",
+      "text": "The ash sealed victims mid-motion, freezing them exactly where they fell \u2014 a city snapshot at the instant everything ended. No chronicle could capture life the way this death did.",
+      "overlay": "Frozen Forever",
+      "speaker": null,
+      "file": "seg5.mp3",
+      "duration": 10.46,
+      "words": [
+        {
+          "word": "The",
+          "start": 0.0,
+          "end": 0.14
+        },
+        {
+          "word": "ash",
+          "start": 0.14,
+          "end": 0.36
+        },
+        {
+          "word": "sealed",
+          "start": 0.36,
+          "end": 0.74
+        },
+        {
+          "word": "victims'",
+          "start": 0.74,
+          "end": 1.16
+        },
+        {
+          "word": "mid",
+          "start": 1.48,
+          "end": 1.62
+        },
+        {
+          "word": "-motion,",
+          "start": 1.62,
+          "end": 2.08
+        },
+        {
+          "word": "freezing",
+          "start": 2.46,
+          "end": 2.74
+        },
+        {
+          "word": "them",
+          "start": 2.74,
+          "end": 3.06
+        },
+        {
+          "word": "exactly",
+          "start": 3.06,
+          "end": 3.26
+        },
+        {
+          "word": "where",
+          "start": 3.26,
+          "end": 3.88
+        },
+        {
+          "word": "they",
+          "start": 3.88,
+          "end": 4.0
+        },
+        {
+          "word": "fell.",
+          "start": 4.0,
+          "end": 4.28
+        },
+        {
+          "word": "A",
+          "start": 4.86,
+          "end": 4.92
+        },
+        {
+          "word": "city",
+          "start": 4.92,
+          "end": 5.12
+        },
+        {
+          "word": "snapshot",
+          "start": 5.12,
+          "end": 5.58
+        },
+        {
+          "word": "at",
+          "start": 5.58,
+          "end": 5.94
+        },
+        {
+          "word": "the",
+          "start": 5.94,
+          "end": 6.06
+        },
+        {
+          "word": "instant",
+          "start": 6.06,
+          "end": 6.38
+        },
+        {
+          "word": "everything",
+          "start": 6.38,
+          "end": 6.8
+        },
+        {
+          "word": "ended.",
+          "start": 6.8,
+          "end": 7.2
+        },
+        {
+          "word": "No",
+          "start": 7.8,
+          "end": 7.86
+        },
+        {
+          "word": "chronicle",
+          "start": 7.86,
+          "end": 8.42
+        },
+        {
+          "word": "could",
+          "start": 8.42,
+          "end": 8.6
+        },
+        {
+          "word": "capture",
+          "start": 8.6,
+          "end": 8.86
+        },
+        {
+          "word": "life",
+          "start": 8.86,
+          "end": 9.16
+        },
+        {
+          "word": "the",
+          "start": 9.16,
+          "end": 9.44
+        },
+        {
+          "word": "way",
+          "start": 9.44,
+          "end": 9.56
+        },
+        {
+          "word": "this",
+          "start": 9.56,
+          "end": 9.72
+        },
+        {
+          "word": "death",
+          "start": 9.72,
+          "end": 9.9
+        },
+        {
+          "word": "did.",
+          "start": 9.9,
+          "end": 10.24
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "label": "CTA",
+      "text": "1,500 bodies recovered. The true death toll? We'll never know. Would you have left at the first tremor? Follow for a moment in history every day.",
+      "overlay": "Follow for More",
+      "speaker": null,
+      "file": "seg6.mp3",
+      "duration": 10.54,
+      "words": [
+        {
+          "word": "1",
+          "start": 0.0,
+          "end": 0.3
+        },
+        {
+          "word": ",500",
+          "start": 0.3,
+          "end": 1.2
+        },
+        {
+          "word": "bodies",
+          "start": 1.2,
+          "end": 1.9
+        },
+        {
+          "word": "recovered,",
+          "start": 1.9,
+          "end": 2.2
+        },
+        {
+          "word": "the",
+          "start": 2.88,
+          "end": 2.96
+        },
+        {
+          "word": "true",
+          "start": 2.96,
+          "end": 3.18
+        },
+        {
+          "word": "death",
+          "start": 3.18,
+          "end": 3.48
+        },
+        {
+          "word": "toll",
+          "start": 3.48,
+          "end": 3.78
+        },
+        {
+          "word": "will",
+          "start": 3.78,
+          "end": 4.54
+        },
+        {
+          "word": "never",
+          "start": 4.54,
+          "end": 4.8
+        },
+        {
+          "word": "know.",
+          "start": 4.8,
+          "end": 5.14
+        },
+        {
+          "word": "Would",
+          "start": 5.74,
+          "end": 5.8
+        },
+        {
+          "word": "you",
+          "start": 5.8,
+          "end": 5.94
+        },
+        {
+          "word": "have",
+          "start": 5.94,
+          "end": 6.08
+        },
+        {
+          "word": "left",
+          "start": 6.08,
+          "end": 6.26
+        },
+        {
+          "word": "it",
+          "start": 6.26,
+          "end": 6.46
+        },
+        {
+          "word": "the",
+          "start": 6.46,
+          "end": 6.58
+        },
+        {
+          "word": "first",
+          "start": 6.58,
+          "end": 6.86
+        },
+        {
+          "word": "tremor?",
+          "start": 6.86,
+          "end": 7.3
+        },
+        {
+          "word": "Follow",
+          "start": 7.76,
+          "end": 7.96
+        },
+        {
+          "word": "for",
+          "start": 7.96,
+          "end": 8.36
+        },
+        {
+          "word": "a",
+          "start": 8.36,
+          "end": 8.46
+        },
+        {
+          "word": "moment",
+          "start": 8.46,
+          "end": 8.76
+        },
+        {
+          "word": "in",
+          "start": 8.76,
+          "end": 9.06
+        },
+        {
+          "word": "history",
+          "start": 9.06,
+          "end": 9.44
+        },
+        {
+          "word": "every",
+          "start": 9.44,
+          "end": 9.86
+        },
+        {
+          "word": "day.",
+          "start": 9.86,
+          "end": 10.26
+        }
+      ]
+    }
+  ]
+}

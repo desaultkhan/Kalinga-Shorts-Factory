@@ -1,0 +1,63 @@
+{
+  "target_words": [
+    150,
+    210
+  ],
+  "hook_min_score": 7,
+  "script_min_score": 8,
+  "script_attempts": 3,
+  "image_model": "nano_banana_2",
+  "video_model": "seedance_2_0",
+  "video_params": {
+    "mode": "fast",
+    "resolution": "1080p"
+  },
+  "max_clip_seconds": 8,
+  "clip_keyframe_role": "reference",
+  "keyframe_continuity": true,
+  "motion": {
+    "HOOK": "A bold animated push into the charged opening as shapes snap into place",
+    "SETUP": "A dynamic pan across the animated setting, elements sliding in",
+    "TURN": "A punchy animated hit on the pivotal moment \u2014 the hinge swinging hard",
+    "STAKES": "A driving move onto the human cost, the accent colour flaring",
+    "LEGACY": "An animated pull-back connecting the moment to the wider world",
+    "CTA": "A snappy pull-back mirroring the opening, a clean shape wipe to invite a replay"
+  },
+  "voice": "Mark (en)",
+  "tts_engine": "higgsfield",
+  "caption_style": "viral",
+  "reveal_overlay_text": true,
+  "overlay_reveal_at": 0.6,
+  "assemble_overlays": true,
+  "watermark": true,
+  "watermark_pos": "bottom-right",
+  "watermark_opacity": 0.5,
+  "watermark_logo_px": 150,
+  "music": true,
+  "music_source": "local",
+  "music_file": null,
+  "audio_speed": 1.5,
+  "max_slowdown": 3.0,
+  "clip_audio_gain": 0.32,
+  "clip_fill": "slow",
+  "max_clips_per_segment": 2,
+  "kenburns": "ffmpeg",
+  "ai_review_iters": 3,
+  "duration_range": [
+    45,
+    95
+  ],
+  "virality_min_overall": 40,
+  "virality_min_hook": 35,
+  "max_hook_retries": 1,
+  "score_hook_first": false,
+  "brand": {
+    "palette": "rich saturated flats \u2014 deep teal, warm ochre-gold, oxblood and cream \u2014 with bold clean outlines and one bright pop accent; confident and graphic, high energy, never muddy or washed-out",
+    "marks": "graphic animation marks only \u2014 a bold shape wipe, a clean motion streak, a pop of accent is the recurring motif; NO photographic logos, NO 3D badges, NO invented lettering on banners"
+  },
+  "budget_credits": 260,
+  "description": "modern 2D animation \u2014 vibrant cel-shaded shapes, bold motion, animated-explainer",
+  "world": "a modern 2D animated-history world \u2014 dramatic historical moments staged as vibrant cel-shaded animation (the fleet on the horizon, the crowded forum, the hand on the parchment), bold flat colour, clean outlines, dynamic staging built to MOVE",
+  "style": "Modern 2D animated illustration \u2014 vibrant flat cel-shading with bold clean outlines, rich saturated period colour, simple expressive shapes, strong silhouettes and dynamic composition, a premium animated-explainer / motion-comic look. Absolutely NOT photoreal, NOT a 3D render, NOT a photograph, NOT muddy painterly realism \u2014 crisp 2D animation. Vertical 9:16 with the action in the upper two thirds and the lower third kept as clean flat colour for captions.",
+  "name": "animated"
+}

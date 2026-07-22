@@ -1,0 +1,57 @@
+# "Bright Lab" — the default look for daily-science.
+#
+# Clean, bright, modern science photography: crisp macro detail, soft daylight,
+# calm negative space. Photoreal but never sterile — the phenomenon itself is
+# the hero. Vertical 9:16, lower third kept quiet for captions.
+#
+# A template defines the VISUAL identity (`world`, `style`, per-beat `motion`)
+# and mechanical knobs. `world` and `style` are REQUIRED. Everything else falls
+# back to the mechanical defaults in pipeline/src/templates.py.
+
+description: bright modern science macro — clean daylight, crisp detail
+
+brand:
+  palette: >-
+    clean daylight white and cool paper grey, with one confident accent —
+    electric teal — and warm highlights; bright and airy, high-key, never dark
+    or murky, never corporate-blue-gradient
+  marks: >-
+    minimal and modern — a thin accent underline or a small tick mark is the
+    only recurring mark; NO photographic logos, NO stamps, NO 3D badges
+
+world: >-
+  a bright modern science world — clear real-world scenes of the phenomenon
+  itself (the drop of water mid-splash, the frost forming on a leaf, the
+  filament glowing) shot like premium macro science photography in clean
+  daylight, with lots of calm negative space
+
+style: >-
+  Bright, high-key science photography — crisp macro and close-up detail, soft
+  natural daylight, shallow depth of field, clean cool-white and paper-grey
+  palette with a single electric-teal accent and warm highlights. Modern,
+  editorial, awe-inducing but calm; NOT dark, NOT murky, NOT a moody teal-orange
+  grade, NOT a 3D render, NOT cartoonish. Vertical 9:16 with the subject in the
+  upper two thirds and the bottom third opening to clean, near-empty space for
+  captions.
+
+motion:
+  HOOK: A gentle push in onto the striking opening detail
+  INTUITION: A slow drift across the familiar, everyday version of the scene
+  REVEAL: A smooth move that opens up the mechanism — a reveal, not a zoom
+  DETAIL: A slow macro push onto the one telling detail
+  WHY: A gentle pull-back to a calm, composed wide as it all connects
+  CTA: A soft pull-back mirroring the opening, inviting a replay
+
+target_words: [150, 210]     # ~60s at natural pace; cut filler, not content
+audio_speed: 1.0
+duration_range: [45, 95]
+kenburns: ffmpeg
+tts_engine: higgsfield      # Inworld voice (karaoke via whisper alignment)
+voice: Mark (en)            # the default Inworld narrator
+caption_style: viral
+budget_credits: 240
+max_hook_retries: 1
+
+# style_refs: [templates/refs/brightlab/hero.png]   # optional: a bundled image
+#   the generator conditions every keyframe on (match the medium/palette, not
+#   the content). Drop a reference PNG in and uncomment to lock the look harder.

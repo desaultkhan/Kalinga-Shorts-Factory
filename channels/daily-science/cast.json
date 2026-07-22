@@ -1,0 +1,11 @@
+{
+  "Nick": {
+    "personality": "",
+    "appearance": "",
+    "gender": "male",
+    "voice": {
+      "higgsfield": "Mark (en)",
+      "edge": "en-AU-WilliamNeural"
+    }
+  }
+}

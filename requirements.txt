@@ -1,0 +1,25 @@
+# Kalinga — Python dependencies (Python 3.9+)
+#
+# Install:  python3 -m pip install -r requirements.txt
+#
+# Two external CLIs are NOT pip packages and must be installed separately
+# (see README): the `claude` CLI (the creative/LLM backend) and the
+# `higgsfield` CLI (image/video/TTS generation). Everything creative runs on
+# your Claude subscription; generation spends Higgsfield credits.
+
+# --- core (required) ---
+Pillow>=9.0          # card/thumbnail/watermark compositing (PIL)
+PyYAML>=6.0          # channel.yaml / template parsing
+edge-tts>=6.1        # free text-to-speech with per-word timings (karaoke captions)
+requests>=2.28       # HTTP (TTS download, web fetches)
+
+# --- optional (features degrade gracefully when missing) ---
+# API fallback for the creative LLM when the `claude` CLI is unavailable
+# (set KALINGA_BACKEND=api + ANTHROPIC_API_KEY):
+#   anthropic>=0.39
+# Karaoke word-alignment for RECORDED / Inworld voice (else a held caption):
+#   faster-whisper>=1.0     # (or: openai-whisper)
+# Copy a TikTok/Instagram video's look by URL (the `refs --url` feature):
+#   yt-dlp>=2024.1
+# ElevenLabs music/voiceover connector uses only the stdlib — just set
+# ELEVENLABS_API_KEY; no pip package required.

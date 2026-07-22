@@ -1,0 +1,67 @@
+{
+  "topic": "why-is-the-sky-blue",
+  "title": "Why Is the Sky Blue?",
+  "summary": "The sky looks blue because sunlight is made of all colors, and as it passes through the atmosphere, air molecules (mostly nitrogen and oxygen) scatter shorter wavelengths of light far more efficiently than longer ones \u2014 a phenomenon called Rayleigh scattering, first explained by Lord Rayleigh in 1871. Because scattering intensity grows with the inverse fourth power of wavelength, blue light gets bounced around the sky roughly 5-10 times more than red light, filling the whole dome of the sky with blue glow from every direction. The same mechanism explains red sunsets (longer atmospheric path filters out the blue) and why other worlds look completely different: Mars's dusty air scatters light the opposite way, and the airless Moon has no daytime sky color at all \u2014 just black.",
+  "facts": [
+    {
+      "fact": "The sky is blue because air molecules scatter short-wavelength (blue) light much more than long-wavelength (red) light.",
+      "detail": "This is Rayleigh scattering: nitrogen (N2) and oxygen (O2) molecules are far smaller than the wavelength of visible light, and the amount of scattering is inversely proportional to wavelength to the fourth power (1/\u03bb\u2074). Blue light (~450-495 nm) is scattered several times more strongly than red light (~620-750 nm), so when you look anywhere in the sky away from the sun, you're seeing blue light that has been deflected toward your eye from all directions.",
+      "confidence": "high"
+    },
+    {
+      "fact": "Lord Rayleigh worked out the math in 1871, and it's a famous case of solving physics with dimensional analysis alone.",
+      "detail": "John William Strutt (3rd Baron Rayleigh) derived the wavelength-dependence of scattering by particles much smaller than the light's wavelength, explaining a color effect people had wondered about for centuries. The scattering law now bears his name.",
+      "confidence": "high"
+    },
+    {
+      "fact": "Violet light is scattered even more than blue light \u2014 so the sky 'should' arguably look violet, but it doesn't, mainly for three reasons.",
+      "detail": "(1) The Sun's spectrum puts out less violet than blue to begin with; (2) the upper atmosphere absorbs a portion of violet/UV light before it reaches the lower sky; (3) human color vision (three cone types) is more sensitive to blue and perceives the blue+violet mixture as a slightly whitish/unsaturated blue rather than violet. This is the single best 'wait, why' hook \u2014 it corrects the common assumption that the most-scattered color should be what we see.",
+      "confidence": "high"
+    },
+    {
+      "fact": "Sunsets and sunrises are red/orange because of the exact same mechanism, just a longer path.",
+      "detail": "When the sun is low on the horizon, its light travels through far more atmosphere to reach your eyes than at noon. Almost all the blue (and green) light gets scattered out of that direct beam along the way, leaving mostly orange and red light to travel straight through \u2014 which is why the sun and nearby clouds look red/orange at dusk and dawn.",
+      "confidence": "high"
+    },
+    {
+      "fact": "Ozone helps keep the sky blue during twilight specifically.",
+      "detail": "Near sunset and during twilight, ozone (O3) absorbs some of the remaining green/red light in the Chappuis absorption band, which helps the sky maintain its blue appearance even as the sun's direct light reddens.",
+      "confidence": "medium"
+    },
+    {
+      "fact": "Overcast skies are white/grey, not blue, because water droplets in clouds are large compared to light's wavelength.",
+      "detail": "Rayleigh scattering only dominates when particles are much smaller than the wavelength of light (roughly under 1/10th the wavelength). Cloud droplets are much bigger, so they scatter via Mie scattering, which treats all visible wavelengths almost equally \u2014 producing white or grey light instead of blue. Under a fully overcast sky there is no direct sunlight at all; every bit of light reaching the ground is diffuse/scattered light.",
+      "confidence": "high"
+    },
+    {
+      "fact": "Mars has the reverse sky-color pattern from Earth.",
+      "detail": "Mars's atmosphere is thin, but it's full of fine dust that scatters light via Mie-type scattering rather than Rayleigh scattering, giving the Martian daytime sky a butterscotch/reddish-tan hue. But near the sun during Martian sunset, the sky can look blue \u2014 the opposite arrangement of Earth's sky, caused by how the dust preferentially forward-scatters red/orange light and lets blue light pass through near the solar disk.",
+      "confidence": "medium"
+    },
+    {
+      "fact": "The Moon's daytime sky is pitch black, not blue, even in full sunlight.",
+      "detail": "With essentially no atmosphere, there's nothing to scatter sunlight around the sky, so there is no diffuse skylight at all \u2014 astronauts on the lunar surface see a black sky and stars even while standing in bright sunshine. This is the cleanest 'proof' that atmosphere, not human perception or the sun itself, is what makes a sky blue.",
+      "confidence": "high"
+    },
+    {
+      "fact": "A common misconception is that the sky is blue because it reflects the ocean (or vice versa).",
+      "detail": "It's actually the other way in part: seawater does absorb red light preferentially (making deep water look blue on its own merits due to water's molecular absorption), but the sky's color comes from atmospheric scattering, not from mirroring the sea. Calm water does reflect some sky color, which can reinforce the misconception.",
+      "confidence": "medium"
+    },
+    {
+      "fact": "Roughly 23% of direct sunlight is scattered out of the direct beam by the atmosphere, and about two-thirds of that scattered light ultimately reaches the ground as diffuse skylight.",
+      "detail": "This is the quantitative basis for 'diffuse sky radiation' \u2014 the scattered light that fills the sky with color, as distinct from the direct beam coming straight from the sun's disk.",
+      "confidence": "medium"
+    }
+  ],
+  "hook_angles": [
+    "You've never actually looked at 'blue light' straight from the sun \u2014 you're seeing light that bounced off air molecules and got redirected into your eyes from every direction in the sky.",
+    "Violet light scatters even more than blue in our atmosphere \u2014 so why isn't the sky violet instead?",
+    "The exact same physics that paints the sky blue at noon paints it red at sunset \u2014 it's just a longer commute through the air.",
+    "Take away the atmosphere and the 'sky' goes pitch black in broad daylight \u2014 just ask anyone who's stood on the Moon.",
+    "On Mars, it's flipped: daytime sky is orange-brown, and sunsets glow blue."
+  ],
+  "sources": [
+    "https://en.wikipedia.org/wiki/Diffuse_sky_radiation"
+  ]
+}
