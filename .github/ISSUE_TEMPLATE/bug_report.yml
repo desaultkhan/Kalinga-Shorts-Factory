@@ -1,0 +1,57 @@
+name: 🐛 Bug report
+description: Something in the pipeline or UI isn't working as expected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug! Please fill in what you can —
+        a reproducible example helps enormously.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+      placeholder: Running `ship` failed at the assemble stage with...
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: The exact command(s) and, if relevant, the channel/template.
+      placeholder: |
+        1. `python3 kalinga.py --channel daily-science ship "why is the sky blue"`
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output / traceback
+      description: Paste any error output. This will be rendered as code.
+      render: shell
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      placeholder: macOS 14 / Ubuntu 22.04 / ...
+    validations:
+      required: true
+  - type: input
+    id: python
+    attributes:
+      label: Python version
+      placeholder: "3.9.18"
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Preflight
+      options:
+        - label: I'm on the latest `main`
+          required: true
+        - label: "`python3 kalinga.py status` runs without a setup error (or I've included its output above)"
+          required: false

@@ -1,9 +1,20 @@
-# Kalinga — an open-source Shorts factory
+# Kalinga — Open-Source AI YouTube Shorts Generator
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![CI](https://github.com/desaultkhan/Kalinga-Shorts-Factory/actions/workflows/ci.yml/badge.svg)](https://github.com/desaultkhan/Kalinga-Shorts-Factory/actions/workflows/ci.yml)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+[![Star this repo](https://img.shields.io/github/stars/desaultkhan/Kalinga-Shorts-Factory?style=social)](https://github.com/desaultkhan/Kalinga-Shorts-Factory/stargazers)
+
+> **Automated, faceless short-form video generation** — turn one topic into a
+> finished, upload-ready vertical video for **YouTube Shorts, TikTok and
+> Reels**. Self-hosted, open source, and free to run (creative on your Claude
+> subscription; you pay only for AI image/video generation).
 
 Turn one topic into a finished, upload-ready vertical video (YouTube Shorts,
-TikTok, Reels). Kalinga is a **channel-agnostic pipeline**: you describe a
-channel once — its premise, voice, beat structure and look — and the pipeline
-researches a topic, writes a script, directs the visuals, generates the
+TikTok, Reels). Kalinga is a **channel-agnostic AI video pipeline**: you
+describe a channel once — its premise, voice, beat structure and look — and the
+pipeline researches a topic, writes a script, directs the visuals, generates the
 keyframes/clips/voiceover, and assembles a captioned 1080×1920 cut.
 
 ```

@@ -1,0 +1,41 @@
+name: 💡 Feature request
+description: Suggest a new capability, provider, engine, or channel idea
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: The use case or friction you're hitting today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: |
+        What you'd like to see. If it's a new backend/source/engine, note that
+        Kalinga's extension points are registries — see `docs/EXTENDING.md`.
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Research adapter (a new source)
+        - Generation provider
+        - TTS engine
+        - Browser UI
+        - A channel / template
+        - CLI / workflow
+        - Docs
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Any workarounds you've tried or other approaches you weighed.

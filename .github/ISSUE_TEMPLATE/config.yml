@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 💬 Questions & ideas (Discussions)
+    url: https://github.com/desaultkhan/Kalinga-Shorts-Factory/discussions
+    about: Ask a question, share a channel you built, or propose an idea before opening an issue.
+  - name: 📖 Documentation
+    url: https://github.com/desaultkhan/Kalinga-Shorts-Factory#readme
+    about: The README, ARCHITECTURE.md, and docs/ cover setup, stages, and extending Kalinga.

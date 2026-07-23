@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Kalinga — Open-Source AI YouTube Shorts Generator</title>
+<meta name="description" content="Kalinga is a free, self-hosted, channel-agnostic AI video pipeline that turns one topic into a finished, upload-ready vertical video for YouTube Shorts, TikTok and Reels. Creative on your Claude subscription; generation via Higgsfield." />
+<meta name="keywords" content="AI YouTube Shorts generator, faceless YouTube automation, AI video generator, open source, self-hosted, TikTok, Reels, vertical video, text to video, Claude, Higgsfield, shorts factory, automated video pipeline" />
+<meta name="author" content="desaultkhan" />
+<link rel="canonical" href="https://desaultkhan.github.io/Kalinga-Shorts-Factory/" />
+
+<!-- Open Graph / social link previews -->
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Kalinga" />
+<meta property="og:title" content="Kalinga — Open-Source AI YouTube Shorts Generator" />
+<meta property="og:description" content="Turn one topic into a finished, upload-ready vertical video for YouTube Shorts, TikTok and Reels. Free, self-hosted, channel-agnostic AI video pipeline." />
+<meta property="og:url" content="https://desaultkhan.github.io/Kalinga-Shorts-Factory/" />
+<meta property="og:image" content="https://desaultkhan.github.io/Kalinga-Shorts-Factory/screenshots/storyboard.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Kalinga — Open-Source AI YouTube Shorts Generator" />
+<meta name="twitter:description" content="Turn one topic into a finished, upload-ready vertical video for YouTube Shorts, TikTok and Reels. Free, self-hosted, open source." />
+<meta name="twitter:image" content="https://desaultkhan.github.io/Kalinga-Shorts-Factory/screenshots/storyboard.png" />
+
+<!-- Structured data — helps search engines understand this is an open-source app -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Kalinga",
+  "applicationCategory": "MultimediaApplication",
+  "operatingSystem": "macOS, Linux, Windows",
+  "description": "Open-source, channel-agnostic AI video pipeline that turns one topic into a finished, upload-ready vertical video for YouTube Shorts, TikTok and Reels.",
+  "url": "https://github.com/desaultkhan/Kalinga-Shorts-Factory",
+  "license": "https://opensource.org/licenses/MIT",
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+}
+</script>
+
+<style>
+  :root{
+    --bg:#ffffff; --fg:#0e1116; --muted:#5b6472; --card:#f6f8fa;
+    --border:#e4e8ee; --accent:#6d5efc; --accent-fg:#ffffff; --code:#0e1116; --code-bg:#f0f2f5;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0b0d10; --fg:#e8ebf0; --muted:#9aa4b2; --card:#14171c;
+      --border:#232830; --accent:#8b7dff; --accent-fg:#0b0d10; --code:#e8ebf0; --code-bg:#14171c;
+    }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  a{color:var(--accent);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:960px;margin:0 auto;padding:0 20px}
+  header{padding:64px 0 40px;text-align:center}
+  .eyebrow{display:inline-block;font-size:13px;letter-spacing:.08em;text-transform:uppercase;
+    color:var(--muted);border:1px solid var(--border);border-radius:999px;padding:5px 14px;margin-bottom:22px}
+  h1{font-size:clamp(30px,6vw,48px);line-height:1.1;margin:0 0 18px;letter-spacing:-.02em}
+  h1 .grad{background:linear-gradient(90deg,var(--accent),#c04bff);-webkit-background-clip:text;
+    background-clip:text;color:transparent}
+  .lede{font-size:clamp(17px,2.4vw,20px);color:var(--muted);max-width:680px;margin:0 auto 12px}
+  .sub{color:var(--muted);max-width:620px;margin:0 auto 30px;font-size:15px}
+  .cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:16px}
+  .btn{display:inline-block;padding:12px 22px;border-radius:10px;font-weight:600;font-size:15px;
+    border:1px solid var(--border)}
+  .btn.primary{background:var(--accent);color:var(--accent-fg);border-color:transparent}
+  .btn.primary:hover{opacity:.92;text-decoration:none}
+  .btn.ghost:hover{text-decoration:none;border-color:var(--accent)}
+  .flow{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:34px 0 0}
+  .flow span{font-size:13px;background:var(--card);border:1px solid var(--border);
+    border-radius:8px;padding:6px 11px;color:var(--muted)}
+  .flow span b{color:var(--fg);font-weight:600}
+  section{padding:40px 0;border-top:1px solid var(--border)}
+  h2{font-size:24px;margin:0 0 8px;letter-spacing:-.01em}
+  .section-sub{color:var(--muted);margin:0 0 26px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px}
+  .card h3{margin:0 0 6px;font-size:16px}
+  .card p{margin:0;color:var(--muted);font-size:14.5px}
+  figure{margin:22px 0 0}
+  figure img{width:100%;height:auto;border-radius:12px;border:1px solid var(--border);display:block}
+  figcaption{color:var(--muted);font-size:13px;text-align:center;margin-top:8px}
+  pre{background:var(--code-bg);border:1px solid var(--border);border-radius:12px;padding:16px 18px;
+    overflow-x:auto;font-size:13.5px;line-height:1.55}
+  code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;color:var(--code)}
+  .two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+  footer{padding:44px 0 64px;text-align:center;color:var(--muted);font-size:14px;border-top:1px solid var(--border)}
+  .pill{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--border);
+    border-radius:999px;padding:3px 10px;margin:3px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <span class="eyebrow">Open source · MIT · self-hosted</span>
+    <h1>The open-source<br><span class="grad">AI YouTube Shorts</span> generator</h1>
+    <p class="lede">Turn one topic into a finished, upload-ready vertical video for
+      <b>YouTube Shorts, TikTok and Reels</b> — researched, scripted, directed,
+      voiced and assembled automatically.</p>
+    <p class="sub">Creative (script, direction, SEO) runs on your Claude subscription at
+      $0 marginal cost. Generation (images, video, voiceover) runs through Higgsfield —
+      the only part that spends credits.</p>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/desaultkhan/Kalinga-Shorts-Factory">View on GitHub →</a>
+      <a class="btn ghost" href="https://github.com/desaultkhan/Kalinga-Shorts-Factory/stargazers">★ Star the repo</a>
+      <a class="btn ghost" href="#quick-start">Quick start</a>
+    </div>
+    <div class="flow">
+      <span><b>research</b></span><span>→</span><span><b>script</b></span><span>→</span>
+      <span><b>direction</b></span><span>→</span><span><b>voice</b></span><span>→</span>
+      <span><b>keyframes</b></span><span>→</span><span><b>clips</b></span><span>→</span>
+      <span><b>assemble</b></span><span>→</span><span><b>SEO</b></span><span>→</span><span><b>validate</b></span>
+    </div>
+    <figure>
+      <img src="screenshots/storyboard.png" alt="Kalinga storyboard — every beat of a Shorts run at a glance" loading="lazy" />
+      <figcaption>The storyboard — every beat of a run at a glance.</figcaption>
+    </figure>
+  </header>
+
+  <section>
+    <h2>What it does</h2>
+    <p class="section-sub">A channel-agnostic pipeline: describe a channel once, then produce validated videos on demand.</p>
+    <div class="grid">
+      <div class="card"><h3>🎬 One topic in, a video out</h3><p>Research → script → direction → voice → keyframes → clips → assembly → captioned 1080×1920 cut, with validation gates.</p></div>
+      <div class="card"><h3>🧩 Channel-agnostic</h3><p>A channel is a folder: premise, persona, beat structure, look. Science explainers, history, cooking — same engine.</p></div>
+      <div class="card"><h3>💸 $0 creative cost</h3><p>Script, direction, judging and SEO run on your Claude subscription. You pay only for AI image/video generation.</p></div>
+      <div class="card"><h3>🖥️ UI or CLI</h3><p>A local browser control center or a headless CLI — they share artifacts and resume each other freely.</p></div>
+      <div class="card"><h3>🔁 Resumable & versioned</h3><p>Rerun after any failure; cached steps skip. Nothing is deleted — superseded artifacts are archived and restorable.</p></div>
+      <div class="card"><h3>🔌 Extend via registries</h3><p>A new research source, generation backend, or TTS engine is one registry entry — not an if/elif chain.</p></div>
+    </div>
+  </section>
+
+  <section id="quick-start">
+    <h2>Quick start</h2>
+    <p class="section-sub">Python 3.9+, ffmpeg, and one-time logins for the two CLIs Kalinga drives — no API keys required.</p>
+    <pre><code># 1. Python deps
+python3 -m pip install -r requirements.txt
+
+# 2. ffmpeg (assembly; ffmpeg-full for burned-in karaoke captions)
+brew install ffmpeg
+
+# 3. The two CLIs (one-time logins, no API keys)
+curl -fsSL https://claude.ai/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/cli/main/install.sh | sh
+higgsfield auth login
+
+# 4. Guided first-run setup
+python3 kalinga.py init
+
+# 5. Open the control center (both demo channels ship a finished video)
+python3 kalinga.py ui</code></pre>
+    <p class="sub" style="margin-top:18px">Two example channels ship with a finished demo video already in the repo — explore before you spend a credit.</p>
+  </section>
+
+  <section>
+    <h2>Inspect and edit every stage</h2>
+    <p class="section-sub">Voice, keyframes, and assembly are all editable in the browser before and after render.</p>
+    <div class="two">
+      <figure><img src="screenshots/keyframes.png" alt="Keyframes stage — shot timeline with the continuity graph" loading="lazy" /><figcaption>Keyframes — shot timeline + continuity graph.</figcaption></figure>
+      <figure><img src="screenshots/assemble.png" alt="Assemble stage — per-beat overlay and timing editor" loading="lazy" /><figcaption>Assemble — per-beat overlay/timing editor.</figcaption></figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Who it's for</h2>
+    <p class="section-sub">Developers and creators building faceless, automated short-form video at scale.</p>
+    <div>
+      <span class="pill">AI YouTube Shorts generator</span>
+      <span class="pill">faceless channel automation</span>
+      <span class="pill">TikTok &amp; Reels pipeline</span>
+      <span class="pill">self-hosted &amp; open source</span>
+      <span class="pill">text-to-video workflow</span>
+      <span class="pill">Claude + Higgsfield</span>
+      <span class="pill">Python 3.9</span>
+      <span class="pill">extensible via registries</span>
+    </div>
+  </section>
+
+  <footer>
+    <p><a href="https://github.com/desaultkhan/Kalinga-Shorts-Factory">Kalinga on GitHub</a> ·
+       <a href="https://github.com/desaultkhan/Kalinga-Shorts-Factory/blob/main/ARCHITECTURE.md">Architecture</a> ·
+       <a href="https://github.com/desaultkhan/Kalinga-Shorts-Factory/blob/main/docs/EXTENDING.md">Extending</a> ·
+       MIT licensed</p>
+    <p>Built to be forked. If you build on Kalinga, a link back is appreciated.</p>
+  </footer>
+
+</div>
+</body>
+</html>
