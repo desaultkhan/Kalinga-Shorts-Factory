@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kalinga — the open-source AI Shorts factory</title>
+<meta name="description" content="Kalinga is an open-source, channel-agnostic AI Shorts factory: one topic in, a validated, upload-ready vertical video out. Claude for creative, Higgsfield for generation. Run faceless YouTube Shorts, TikTok and Reels channels end-to-end.">
+<link rel="canonical" href="https://desaultkhan.github.io/Kalinga-Shorts-Factory/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kalinga — the open-source AI Shorts factory">
+<meta property="og:description" content="One topic in, a finished upload-ready Short out. Research → script → direction → voice → keyframes → clips → assemble → SEO → validate.">
+<meta property="og:image" content="https://desaultkhan.github.io/Kalinga-Shorts-Factory/assets/og-card.jpg">
+<meta property="og:url" content="https://desaultkhan.github.io/Kalinga-Shorts-Factory/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎬</text></svg>">
+<style>
+  :root{
+    --navy:#0d1a2e; --navy2:#111f38; --panel:#16253f;
+    --ochre:#e6a63c; --cream:#f0e3c4; --red:#c8452e; --teal:#5fb3a1;
+    --text:#d9dfe9; --dim:#93a0b4; --line:#24344f;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{background:var(--navy);color:var(--text);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  a{color:var(--teal);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .wrap{max-width:1060px;margin:0 auto;padding:0 24px}
+  .hero{background:var(--navy);text-align:center;padding:0 0 56px}
+  .hero img.banner{width:100%;max-width:1400px;display:block;margin:0 auto}
+  .hero h1{position:absolute;left:-9999px}
+  .tagline{font-size:1.35rem;color:var(--cream);max-width:760px;margin:36px auto 12px;font-weight:600}
+  .subtag{color:var(--dim);max-width:680px;margin:0 auto 30px}
+  .btns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+  .btn{display:inline-block;padding:13px 26px;border-radius:8px;font-weight:700;font-size:1rem}
+  .btn.primary{background:var(--ochre);color:#241a08}
+  .btn.primary:hover{text-decoration:none;filter:brightness(1.07)}
+  .btn.ghost{border:1.5px solid var(--line);color:var(--cream)}
+  .btn.ghost:hover{border-color:var(--ochre);text-decoration:none}
+  .pipeline{background:var(--navy2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:26px 0;overflow-x:auto}
+  .pipeline .steps{display:flex;gap:10px;justify-content:center;align-items:center;white-space:nowrap;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.92rem}
+  .pipeline .s{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 12px;color:var(--cream)}
+  .pipeline .a{color:var(--ochre)}
+  section{padding:64px 0}
+  h2{font-size:1.7rem;color:var(--cream);margin-bottom:10px}
+  .lead{color:var(--dim);max-width:720px;margin-bottom:36px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:18px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:22px}
+  .card h3{color:var(--ochre);font-size:1.05rem;margin-bottom:8px}
+  .card p{color:var(--dim);font-size:.95rem}
+  .shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(420px,1fr));gap:20px}
+  .shot{background:var(--panel);border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  .shot img{width:100%;display:block}
+  .shot figcaption{padding:12px 16px;color:var(--dim);font-size:.9rem}
+  .channels{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}
+  .chan{border-left:4px solid var(--red);background:var(--panel);border-radius:0 10px 10px 0;padding:20px 22px}
+  .chan.sci{border-left-color:var(--teal)}
+  .chan h3{color:var(--cream);margin-bottom:6px}
+  .chan p{color:var(--dim);font-size:.95rem}
+  pre{background:#0a1424;border:1px solid var(--line);border-radius:10px;padding:20px 22px;overflow-x:auto;font-size:.9rem;line-height:1.7;color:var(--cream)}
+  pre .c{color:#5c7396}
+  pre .k{color:var(--ochre)}
+  .alt{background:var(--navy2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  table{width:100%;border-collapse:collapse;font-size:.95rem}
+  th,td{text-align:left;padding:10px 14px;border-bottom:1px solid var(--line)}
+  th{color:var(--cream)}
+  td{color:var(--dim)}
+  td code{color:var(--teal);font-family:ui-monospace,Menlo,monospace;font-size:.88rem}
+  .tablebox{overflow-x:auto}
+  footer{padding:44px 0 60px;text-align:center;color:var(--dim);font-size:.92rem}
+  footer .heart{color:var(--red)}
+  @media (max-width:520px){ .shots{grid-template-columns:1fr} .tagline{font-size:1.15rem} }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <img class="banner" src="assets/hero.jpg" alt="Kalinga — the open-source AI Shorts factory: an assembly line turning an idea into finished vertical videos">
+  <h1>Kalinga — the open-source AI Shorts factory</h1>
+  <div class="wrap">
+    <p class="tagline">One topic in. A finished, upload-ready Short out.</p>
+    <p class="subtag">Describe a channel once — premise, voice, beat structure, look — and Kalinga researches,
+    writes, directs, generates and assembles a captioned 1080×1920 video. Creative runs on your Claude
+    subscription at $0 marginal cost; generation runs on Higgsfield credits.</p>
+    <div class="btns">
+      <a class="btn primary" href="https://github.com/desaultkhan/Kalinga-Shorts-Factory">★ Star on GitHub</a>
+      <a class="btn ghost" href="#quickstart">Quick start</a>
+    </div>
+  </div>
+</div>
+
+<div class="pipeline">
+  <div class="steps">
+    <span class="s">research</span><span class="a">→</span>
+    <span class="s">script</span><span class="a">→</span>
+    <span class="s">direction</span><span class="a">→</span>
+    <span class="s">voice</span><span class="a">→</span>
+    <span class="s">keyframes</span><span class="a">→</span>
+    <span class="s">clips</span><span class="a">→</span>
+    <span class="s">assemble</span><span class="a">→</span>
+    <span class="s">SEO</span><span class="a">→</span>
+    <span class="s">validate</span>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2>Drive it from the browser or the terminal</h2>
+    <p class="lead">Two modes over the same artifacts — a local browser control center (stdlib HTTP, zero extra
+    dependencies) and a CLI with headless one-shot, interactive, and per-stage commands. They resume each other freely.</p>
+    <div class="shots">
+      <figure class="shot"><img src="screenshots/home.png" alt="The control center — channels, runs, tools" loading="lazy">
+        <figcaption>The control center — channels, finished runs, tools, AI channel &amp; template creation.</figcaption></figure>
+      <figure class="shot"><img src="screenshots/storyboard.png" alt="The storyboard — every beat of a run at a glance" loading="lazy">
+        <figcaption>The storyboard — every beat with its keyframe, voice, overlay and clip state at a glance.</figcaption></figure>
+      <figure class="shot"><img src="screenshots/keyframes.png" alt="The keyframes stage with the continuity graph" loading="lazy">
+        <figcaption>Keyframes — the shot timeline and continuity graph keep the visual world consistent.</figcaption></figure>
+      <figure class="shot"><img src="screenshots/assemble.png" alt="The assemble stage — per-beat overlay and timing editor" loading="lazy">
+        <figcaption>Assemble — design the whole cut before the first render; one build applies everything + AI review.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="alt">
+  <div class="wrap">
+    <h2>What's in the box</h2>
+    <div class="grid">
+      <div class="card"><h3>AI channel designer</h3><p>Describe a channel idea in one line — get the premise, narrator persona, beat structure, voice/visual rules and starter SEO, all editable before scaffolding.</p></div>
+      <div class="card"><h3>A research-aware director</h3><p>Designs a bespoke visual world per video: tease/reveal arc, per-beat visuals and motion, a keyframe continuity graph — under a facts lock so numbers never drift.</p></div>
+      <div class="card"><h3>Voice, your way</h3><p>Free edge-tts with karaoke timings, ElevenLabs or Inworld, multi-character casts with per-line expression — or record your own voice, whisper-aligned.</p></div>
+      <div class="card"><h3>Recurring cast &amp; brand</h3><p>Generated character avatars with a 36-image reference library each, so the same face appears every episode; plus an AI logo/watermark/banner kit.</p></div>
+      <div class="card"><h3>Gates &amp; AI review</h3><p>Tech QC, virality scoring with an automatic hook rewrite, SEO lint — and an LLM that watches a frame per beat and proposes layer-attributed fixes.</p></div>
+      <div class="card"><h3>A memory for your taste</h3><p>Two-tier learnings distilled from your edits and critiques become standing instructions for every future script.</p></div>
+      <div class="card"><h3>Resumable, nothing lost</h3><p>Rerun after any failure and cached stages skip; every superseded artifact is archived to <code>.versions/</code> and restorable.</p></div>
+      <div class="card"><h3>Built to extend</h3><p>Research adapters, generation providers, TTS engines and UI actions are one-entry registries; a channel or a look is just a folder.</p></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Two demo channels, videos included</h2>
+    <p class="lead">The repo ships two reference channels, each with a finished run already inside — something to
+    explore before you spend a single credit.</p>
+    <div class="channels">
+      <div class="chan"><h3>history-shorts</h3><p>The video-heavy demo: one pivotal moment in history per Short, told through generated moving clips. Shipped run: <em>the eruption that buried Pompeii</em>.</p></div>
+      <div class="chan sci"><h3>daily-science</h3><p>The image-heavy explainer: one surprising piece of science per ~60s Short, built from stills + Ken Burns motion — the cheaper style. Shipped run: <em>why is the sky blue</em>.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="quickstart">
+  <div class="wrap">
+    <h2>Quick start</h2>
+    <p class="lead">Python 3.9+, ffmpeg, and two one-time CLI logins. No API keys required.</p>
+<pre><span class="c"># 1. Python deps</span>
+python3 -m pip install -r requirements.txt
+
+<span class="c"># 2. ffmpeg (assembly; a libass build enables karaoke captions)</span>
+brew install ffmpeg
+
+<span class="c"># 3. The two CLIs Kalinga drives (one-time logins)</span>
+curl -fsSL https://claude.ai/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/higgsfield-ai/cli/main/install.sh | sh
+higgsfield auth login
+
+<span class="c"># 4. Guided setup, then explore the demo runs in the browser</span>
+python3 kalinga.py <span class="k">init</span>
+python3 kalinga.py <span class="k">ui</span>
+
+<span class="c"># 5. Produce a Short</span>
+python3 kalinga.py <span class="k">ship</span> <span class="c"># headless one-shot</span>
+python3 kalinga.py <span class="k">make</span> --ui <span class="c"># stage-by-stage in the browser</span></pre>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Extending it</h2>
+    <p class="lead">The engine is channel-agnostic; the variable parts are one-entry registries.</p>
+    <div class="tablebox">
+    <table>
+      <tr><th>To add…</th><th>Edit</th></tr>
+      <tr><td>a research source</td><td><code>research.ADAPTERS</code></td></tr>
+      <tr><td>a generation backend</td><td><code>make_video.PROVIDERS</code></td></tr>
+      <tr><td>a TTS engine</td><td><code>make_video.ENGINES</code></td></tr>
+      <tr><td>a channel / a visual look</td><td>a folder in <code>channels/</code> · a yaml in <code>templates/</code></td></tr>
+      <tr><td>a browser-UI action</td><td><code>webui/actions.py</code> + <code>webui/state.py</code></td></tr>
+    </table>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <p>MIT licensed — use it, modify it, build on it, sell what you build.</p>
+    <p>If you ship something built on Kalinga, a visible link back to
+    <a href="https://github.com/desaultkhan/Kalinga-Shorts-Factory">the repository</a> is the one thing we ask <span class="heart">♥</span></p>
+  </div>
+</footer>
+
+</body>
+</html>
