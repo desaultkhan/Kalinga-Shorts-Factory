@@ -1,7 +1,8 @@
-# Kalinga — an open-source Shorts factory
+# Kalinga — an open-source AI Shorts factory
 
 Turn one topic into a finished, upload-ready vertical video (YouTube Shorts,
-TikTok, Reels). Kalinga is a **channel-agnostic pipeline**: you describe a
+TikTok, Reels) — an AI video generator for running faceless channels
+end-to-end. Kalinga is a **channel-agnostic pipeline**: you describe a
 channel once — its premise, voice, beat structure and look — and the pipeline
 researches a topic, writes a script, directs the visuals, generates the
 keyframes/clips/voiceover, and assembles a captioned 1080×1920 cut.
