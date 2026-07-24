@@ -1,4 +1,20 @@
+<div align="center">
+  <a href="https://desaultkhan.github.io/Kalinga-Shorts-Factory/">
+    <img src="docs/assets/hero.jpg" alt="Kalinga — the open-source AI Shorts factory" width="100%">
+  </a>
+</div>
+
 # Kalinga — an open-source AI Shorts factory
+
+<div align="center">
+
+[![Release](https://img.shields.io/github/v/release/desaultkhan/Kalinga-Shorts-Factory?color=e6a63c)](https://github.com/desaultkhan/Kalinga-Shorts-Factory/releases)
+[![CI](https://github.com/desaultkhan/Kalinga-Shorts-Factory/actions/workflows/ci.yml/badge.svg)](https://github.com/desaultkhan/Kalinga-Shorts-Factory/actions)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-3776ab.svg)](https://www.python.org/)
+[![Website](https://img.shields.io/badge/website-kalinga-5fb3a1.svg)](https://desaultkhan.github.io/Kalinga-Shorts-Factory/)
+
+</div>
 
 Turn one topic into a finished, upload-ready vertical video (YouTube Shorts,
 TikTok, Reels) — an AI video generator for running faceless channels
