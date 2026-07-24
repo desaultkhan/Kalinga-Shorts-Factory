@@ -81,6 +81,12 @@ python3 kalinga.py ui
 `python3 kalinga.py init` walks you through setup; `status` re-diagnoses the
 environment anytime.
 
+## See it in action
+
+**[@the_founder_stories](https://www.instagram.com/the_founder_stories/)** — a
+real, public channel publishing founder-story Shorts produced with Kalinga.
+Everything on it came out of this pipeline.
+
 ## Explore the example channels (videos included)
 
 The repo ships **two** reference channels (a channel is a folder under
